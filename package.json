@@ -1,0 +1,61 @@
+{
+  "name": "migajas-launcher",
+  "version": "1.0.4",
+  "description": "Launcher Oficial de Migajas Studio",
+  "main": "main.js",
+  "author": "Migajas Studio",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build:all": "electron-builder -mw"
+  },
+  "build": {
+    "appId": "com.migajas.launcher",
+    "productName": "Migajas Launcher",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico",
+      "requestedExecutionLevel": "asInvoker"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "icon.ico",
+      "category": "public.app-category.games"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Migajas Launcher"
+    },
+    "files": [
+      "**/*",
+      "!**/minecraft/*",
+      "!**/node_modules/*/{test,__tests__,tests,powered-test,example,examples}",
+      "!**/*.map",
+      "!**/*.md"
+    ],
+    "asar": true,
+    "extraResources": [
+      {
+        "from": "icon.ico",
+        "to": "icon.ico"
+      }
+    ]
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "axios": "^1.6.0",
+    "discord-rpc": "^4.0.1",
+    "electron-updater": "^6.1.7",
+    "form-data": "^4.0.0",
+    "minecraft-launcher-core": "latest",
+    "msmc": "latest"
+  },
+  "devDependencies": {
+    "electron": "latest",
+    "electron-builder": "latest"
+  }
+}

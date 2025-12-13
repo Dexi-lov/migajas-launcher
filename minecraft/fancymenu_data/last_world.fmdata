@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/Dexs/curseforge/minecraft/Instances/LEYENDAS/saves/Mundo nuevo (1)
+}
+

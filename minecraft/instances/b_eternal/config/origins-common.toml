@@ -1,0 +1,670 @@
+
+[origins]
+
+	[origins."srp_origins:adapted/reeker"]
+		"srp_origins:adapted/remains" = true
+		"srp_origins:adapted/reeker/orb" = true
+		"srp_origins:adapted/adaptive2" = true
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:biomass" = true
+		"srp_origins:adapted/vomit" = true
+		"srp_origins:adapted/tough" = true
+		enabled = true
+		"srp_origins:fool" = true
+		"srp_origins:adapted/tendril2" = true
+		"srp_origins:souls" = true
+		"srp_origins:badrep" = true
+		"srp_origins:adapted/reeker/eruption" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:adapted/leap" = true
+		"srp_origins:adapted/reeker/creature" = true
+		"srp_origins:adapted/large" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:upgrades" = true
+		"srp_origins:adapted/reeker/charge" = true
+		"srp_origins:phases" = true
+
+	[origins."srp_origins:adapted/yelloweye"]
+		"srp_origins:adapted/remains" = true
+		"srp_origins:adapted/yelloweye/leap" = true
+		"srp_origins:adapted/adaptive2" = true
+		"srp_origins:adapted/yelloweye/nade" = true
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:biomass" = true
+		"srp_origins:adapted/vomit" = true
+		"srp_origins:adapted/tough" = true
+		"srp_origins:adapted/yelloweye/creature" = true
+		"srp_origins:adapted/yelloweye/flight" = true
+		enabled = true
+		"srp_origins:fool" = true
+		"srp_origins:adapted/yelloweye/shoot" = true
+		"srp_origins:adapted/yelloweye/discharge" = true
+		"srp_origins:adapted/tendril2" = true
+		"srp_origins:souls" = true
+		"srp_origins:badrep" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:adapted/large" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:upgrades" = true
+		"srp_origins:phases" = true
+
+	[origins."srp_origins:adapted/longarms"]
+		"srp_origins:adapted/longarms/creature" = true
+		"srp_origins:adapted/longarms/length" = true
+		"srp_origins:adapted/longarms/orb" = true
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:biomass" = true
+		"srp_origins:adapted/tough" = true
+		enabled = true
+		"srp_origins:fool" = true
+		"srp_origins:adapted/tendril2" = true
+		"srp_origins:adapted/longarms/swipe" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:adapted/longarms/wave" = true
+		"srp_origins:phases" = true
+		"srp_origins:adapted/remains" = true
+		"srp_origins:adapted/adaptive2" = true
+		"srp_origins:adapted/vomit" = true
+		"srp_origins:adapted/longarms/climb" = true
+		"srp_origins:souls" = true
+		"srp_origins:badrep" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:adapted/leap" = true
+		"srp_origins:adapted/large" = true
+		"srp_origins:upgrades" = true
+
+	[origins."srp_origins:primitive/bolster"]
+		"srp_origins:tendril1" = true
+		"srp_origins:primitive/bolster/tank" = true
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:primitive/bolster/heal" = true
+		"srp_origins:primitive/bolster/evolution" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:biomass" = true
+		enabled = true
+		"srp_origins:fool" = true
+		"srp_origins:adaptive1" = true
+		"srp_origins:primitive/bolster/creature" = true
+		"srp_origins:souls" = true
+		"srp_origins:badrep" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:upgrades" = true
+		"srp_origins:primitive/remains" = true
+		"srp_origins:primitive/bolster/orb" = true
+		"srp_origins:phases" = true
+
+	[origins."srp_origins:variants/frostbitten"]
+		"srp_origins:variants/frostbitten" = true
+		enabled = true
+
+	[origins."srp_origins:nexus/beckon/stage1"]
+		"srp_origins:nexus/beckon/burrow" = true
+		"srp_origins:nexus/beckon/stage1/summon" = true
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:nexus/beckon/stage1/spread1" = true
+		enabled = true
+		"srp_origins:fool" = true
+		"srp_origins:nexus/beckon/stage1/node" = true
+		"srp_origins:nexus/beckon/stage1/biomass" = true
+		"srp_origins:badrep" = true
+		"srp_origins:nexus/beckon/stage1/bomb" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:parasitetag" = true
+
+	[origins."srp_origins:variants/nocturn"]
+		enabled = true
+		"srp_origins:variants/nocturn" = true
+
+	[origins."origins:shulk"]
+		"origins:strong_arms" = true
+		"origins:no_shield" = true
+		"origins:more_exhaustion" = true
+		"origins:strong_arms_break_speed" = true
+		"origins:natural_armor" = true
+		enabled = true
+		"origins:shulker_inventory" = true
+
+	[origins."srp_origins:variants/virulent"]
+		"srp_origins:variants/virulent" = true
+		enabled = true
+
+	[origins."srp_origins:variants/carnis"]
+		"srp_origins:variants/carnis" = true
+		enabled = true
+
+	[origins."srp_origins:crude/assimilated"]
+		"srp_origins:crude/assimilated/buglin" = true
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:crude/assimilated/repurposed" = true
+		"srp_origins:crude/assimilated/creature" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:biomass" = true
+		enabled = true
+		"srp_origins:fool" = true
+		"srp_origins:souls" = true
+		"srp_origins:badrep" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:crude/assimilated/nochest" = true
+		"srp_origins:upgrades" = true
+		"srp_origins:crude/remains" = true
+		"srp_origins:crude/assimilated/evolution" = true
+		"srp_origins:phases" = true
+
+	[origins."srp_origins:variants/breacher"]
+		"srp_origins:variants/breacher" = true
+		enabled = true
+
+	[origins."srp_origins:adapted/summoner"]
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:adapted/summoner/teamcreate" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:biomass" = true
+		"srp_origins:adapted/tough" = true
+		enabled = true
+		"srp_origins:adapted/summoner/orb" = true
+		"srp_origins:fool" = true
+		"srp_origins:adapted/tendril2" = true
+		"srp_origins:adapted/summoner/creature" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:phases" = true
+		"srp_origins:adapted/summoner/tamed" = true
+		"srp_origins:adapted/remains" = true
+		"srp_origins:adapted/summoner/summon" = true
+		"srp_origins:adapted/summoner/revive" = true
+		"srp_origins:adapted/adaptive2" = true
+		"srp_origins:adapted/vomit" = true
+		"srp_origins:souls" = true
+		"srp_origins:badrep" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:adapted/leap" = true
+		"srp_origins:adapted/large" = true
+		"srp_origins:upgrades" = true
+
+	[origins."srp_origins:primitive/reeker"]
+		"srp_origins:tendril1" = true
+		"srp_origins:primitive/reeker/charge" = true
+		"srp_origins:primitive/reeker/evolution" = true
+		"srp_origins:primitive/reeker/creature" = true
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:biomass" = true
+		enabled = true
+		"srp_origins:fool" = true
+		"srp_origins:adaptive1" = true
+		"srp_origins:souls" = true
+		"srp_origins:badrep" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:primitive/reeker/orb" = true
+		"srp_origins:upgrades" = true
+		"srp_origins:primitive/remains" = true
+		"srp_origins:phases" = true
+
+	[origins."srp_origins:variants/natural"]
+		"srp_origins:variants/natural" = true
+		enabled = true
+
+	[origins."srp_origins:transforms/feral"]
+		"srp_origins:transforms/feral" = true
+		enabled = true
+
+	[origins."srp_origins:adapted/manducater"]
+		"srp_origins:adapted/remains" = true
+		"srp_origins:adapted/adaptive2" = true
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:biomass" = true
+		"srp_origins:adapted/vomit" = true
+		"srp_origins:adapted/tough" = true
+		enabled = true
+		"srp_origins:fool" = true
+		"srp_origins:adapted/tendril2" = true
+		"srp_origins:adapted/manducater/orb" = true
+		"srp_origins:souls" = true
+		"srp_origins:badrep" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:adapted/leap" = true
+		"srp_origins:adapted/large" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:upgrades" = true
+		"srp_origins:adapted/manducater/backstab" = true
+		"srp_origins:adapted/manducater/creature" = true
+		"srp_origins:adapted/manducater/invisibility" = true
+		"srp_origins:phases" = true
+
+	[origins."srp_origins:variants/charged"]
+		"srp_origins:variants/charged" = true
+		enabled = true
+
+	[origins."origins:enderian"]
+		"origins:water_vulnerability" = true
+		"origins:throw_ender_pearl" = true
+		"origins:pumpkin_hate" = true
+		"origins:ender_particles" = true
+		"origins:damage_from_potions" = true
+		enabled = true
+		"origins:extra_reach" = true
+
+	[origins."srp_origins:crude/limboassim"]
+		"srp_origins:crude/limboassim/feral" = true
+		"srp_origins:crude/limboassim/limboassim" = true
+		"srp_origins:crude/limboassim/changemode" = true
+		"srp_origins:crude/limboassim/thrall" = true
+		enabled = true
+
+	[origins."srp_origins:variants/uranium"]
+		"srp_origins:variants/uranium" = true
+		enabled = true
+
+	[origins."srp_origins:adapted/arachnida"]
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:adapted/arachnida/pull" = true
+		"srp_origins:biomass" = true
+		"srp_origins:adapted/tough" = true
+		enabled = true
+		"srp_origins:adapted/arachnida/weave" = true
+		"srp_origins:fool" = true
+		"srp_origins:adapted/tendril2" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:adapted/arachnida/orb" = true
+		"srp_origins:phases" = true
+		"srp_origins:adapted/remains" = true
+		"srp_origins:adapted/adaptive2" = true
+		"srp_origins:adapted/arachnida/creature" = true
+		"srp_origins:adapted/vomit" = true
+		"srp_origins:adapted/arachnida/spider" = true
+		"srp_origins:souls" = true
+		"srp_origins:badrep" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:adapted/leap" = true
+		"srp_origins:adapted/large" = true
+		"srp_origins:adapted/arachnida/aracpullfunction" = true
+		"srp_origins:upgrades" = true
+
+	[origins."srp_origins:variants/tainted"]
+		"srp_origins:variants/tainted" = true
+		enabled = true
+
+	[origins."srp_origins:variants/tyrant"]
+		"srp_origins:variants/tyrant" = true
+		enabled = true
+
+	[origins."srp_origins:primitive/arachnida"]
+		"srp_origins:tendril1" = true
+		"srp_origins:primitive/arachnida/evolution" = true
+		"srp_origins:primitive/arachnida/orb" = true
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:biomass" = true
+		enabled = true
+		"srp_origins:fool" = true
+		"srp_origins:adaptive1" = true
+		"srp_origins:primitive/arachnida/spider" = true
+		"srp_origins:souls" = true
+		"srp_origins:badrep" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:primitive/arachnida/aracpullfunction" = true
+		"srp_origins:upgrades" = true
+		"srp_origins:primitive/remains" = true
+		"srp_origins:primitive/arachnida/pull" = true
+		"srp_origins:phases" = true
+
+	[origins."srp_origins:crude/feral"]
+		"srp_origins:crude/feral/exhaust" = true
+		"origins:carnivore" = true
+		"srp_origins:crude/feral/flayed" = true
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:crude/feral/bruiser" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:biomass" = true
+		"srp_origins:crude/feral/strength" = true
+		enabled = true
+		"srp_origins:fool" = true
+		"srp_origins:souls" = true
+		"srp_origins:badrep" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:crude/feral/volatile" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:upgrades" = true
+		"srp_origins:crude/remains" = true
+		"srp_origins:phases" = true
+
+	[origins."origins:elytrian"]
+		"origins:more_kinetic_damage" = true
+		"origins:elytra" = true
+		"origins:claustrophobia" = true
+		"origins:aerial_combatant" = true
+		"origins:light_armor" = true
+		"origins:launch_into_air" = true
+		enabled = true
+
+	[origins."srp_origins:variants/storming"]
+		"srp_origins:variants/storming" = true
+		enabled = true
+
+	[origins."srp_origins:adapted/bolster"]
+		"srp_origins:adapted/remains" = true
+		"srp_origins:adapted/adaptive2" = true
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:biomass" = true
+		"srp_origins:adapted/vomit" = true
+		enabled = true
+		"srp_origins:fool" = true
+		"srp_origins:adapted/tendril2" = true
+		"srp_origins:souls" = true
+		"srp_origins:adapted/bolster/creature" = true
+		"srp_origins:badrep" = true
+		"srp_origins:adapted/bolster/heal" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:adapted/bolster/bolster" = true
+		"srp_origins:adapted/bolster/tank" = true
+		"srp_origins:adapted/large" = true
+		"srp_origins:adapted/bolster/orb" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:upgrades" = true
+		"srp_origins:adapted/bolster/barrage" = true
+		"srp_origins:phases" = true
+
+	[origins."srp_origins:primitive/summoner"]
+		"srp_origins:tendril1" = true
+		"srp_origins:primitive/summoner/tamed" = true
+		"srp_origins:primitive/summoner/summon" = true
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:biomass" = true
+		enabled = true
+		"srp_origins:fool" = true
+		"srp_origins:adaptive1" = true
+		"srp_origins:primitive/summoner/teamcreate" = true
+		"srp_origins:souls" = true
+		"srp_origins:primitive/summoner/evolution" = true
+		"srp_origins:badrep" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:primitive/summoner/orb" = true
+		"srp_origins:primitive/summoner/creature" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:upgrades" = true
+		"srp_origins:primitive/remains" = true
+		"srp_origins:phases" = true
+
+	[origins."srp_origins:inborn/rupter"]
+		"srp_origins:inborn/climb" = true
+		"srp_origins:inborn/rupter/creature" = true
+		"srp_origins:inborn/rupter/hit_slowness" = true
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:biomass" = true
+		enabled = true
+		"srp_origins:nofall" = true
+		"srp_origins:fool" = true
+		"srp_origins:souls" = true
+		"srp_origins:badrep" = true
+		"srp_origins:inborn/rupter/evolution" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:inborn/rupter/coth" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:inborn/rupter/leap" = true
+		"srp_origins:upgrades" = true
+		"srp_origins:inborn/rupter/small" = true
+		"srp_origins:phases" = true
+
+	[origins."origins:arachnid"]
+		"origins:carnivore" = true
+		"origins:fragile" = true
+		"origins:arthropod" = true
+		"origins:master_of_webs" = true
+		enabled = true
+		"origins:climbing" = true
+
+	[origins."srp_origins:variants/fooled"]
+		"srp_origins:variants/fooled" = true
+		enabled = true
+
+	[origins."origins:feline"]
+		"origins:cat_vision" = true
+		"origins:velvet_paws" = true
+		"origins:fall_immunity" = true
+		"origins:weak_arms" = true
+		"origins:nine_lives" = true
+		enabled = true
+		"origins:sprint_jump" = true
+		"origins:scare_creepers" = true
+
+	[origins."srp_origins:variants/beserker"]
+		enabled = true
+		"srp_origins:variants/beserker" = true
+
+	[origins."srp_origins:primitive/yelloweye"]
+		"srp_origins:tendril1" = true
+		"srp_origins:primitive/yelloweye/nade" = true
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:biomass" = true
+		enabled = true
+		"srp_origins:primitive/yelloweye/creature" = true
+		"srp_origins:nofall" = true
+		"srp_origins:fool" = true
+		"srp_origins:adaptive1" = true
+		"srp_origins:primitive/yelloweye/evolution" = true
+		"srp_origins:souls" = true
+		"srp_origins:badrep" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:primitive/yelloweye/shoot" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:primitive/yelloweye/flight" = true
+		"srp_origins:upgrades" = true
+		"srp_origins:primitive/remains" = true
+		"srp_origins:phases" = true
+
+	[origins."srp_origins:inborn/buglin"]
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:biomass" = true
+		"srp_origins:inborn/buglin/evolution" = true
+		enabled = true
+		"srp_origins:inborn/buglin/weak" = true
+		"srp_origins:fool" = true
+		"srp_origins:souls" = true
+		"srp_origins:badrep" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:upgrades" = true
+		"srp_origins:inborn/buglin/speed" = true
+		"srp_origins:inborn/buglin/small" = true
+		"srp_origins:phases" = true
+
+	[origins."srp_origins:primitive/manducater"]
+		"srp_origins:tendril1" = true
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:biomass" = true
+		enabled = true
+		"srp_origins:primitive/manducater/creature" = true
+		"srp_origins:primitive/manducater/invisibility" = true
+		"srp_origins:fool" = true
+		"srp_origins:adaptive1" = true
+		"srp_origins:souls" = true
+		"srp_origins:badrep" = true
+		"srp_origins:primitive/manducater/orb" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:upgrades" = true
+		"srp_origins:primitive/remains" = true
+		"srp_origins:primitive/manducater/evolution" = true
+		"srp_origins:phases" = true
+
+	[origins."srp_origins:inborn/mangler"]
+		"srp_origins:tendril1" = true
+		"srp_origins:inborn/climb" = true
+		"srp_origins:inborn/mangler/leap" = true
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:biomass" = true
+		enabled = true
+		"srp_origins:nofall" = true
+		"srp_origins:inborn/mangler/hit_slowness" = true
+		"srp_origins:fool" = true
+		"srp_origins:adaptive1" = true
+		"srp_origins:souls" = true
+		"srp_origins:badrep" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:inborn/mangler/hearts" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:upgrades" = true
+		"srp_origins:phases" = true
+
+	[origins."origins:phantom"]
+		"origins:phasing" = true
+		"origins:fragile" = true
+		"origins:phantomize" = true
+		"origins:translucent" = true
+		"origins:invisibility" = true
+		"origins:hunger_over_time" = true
+		enabled = true
+		"origins:burn_in_daylight" = true
+		"origins:phantomize_overlay" = true
+
+	[origins."origins:avian"]
+		"origins:fresh_air" = true
+		"origins:vegetarian" = true
+		"origins:lay_eggs" = true
+		"origins:slow_falling" = true
+		"origins:tailwind" = true
+		"origins:like_air" = true
+		enabled = true
+
+	[origins."srp_origins:crude/thrall"]
+		"srp_origins:crude/thrall/agility" = true
+		"srp_origins:tendril1" = true
+		"srp_origins:crude/thrall/exhaust" = true
+		"srp_origins:crude/thrall/creature" = true
+		"srp_origins:crude/thrall/nochest" = true
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:crude/thrall/large" = true
+		"srp_origins:biomass" = true
+		enabled = true
+		"srp_origins:fool" = true
+		"srp_origins:adaptive1" = true
+		"srp_origins:crude/thrall/repurposed" = true
+		"srp_origins:souls" = true
+		"srp_origins:badrep" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:crude/thrall/buglin" = true
+		"srp_origins:upgrades" = true
+		"srp_origins:crude/remains" = true
+		"srp_origins:phases" = true
+
+	[origins."srp_origins:variants/oceanic"]
+		"srp_origins:variants/oceanic" = true
+		enabled = true
+
+	[origins."srp_origins:variants/lore_accurate"]
+		"srp_origins:variants/lore-accurate" = true
+		enabled = true
+
+	[origins."srp_origins:variants/dweller"]
+		enabled = true
+		"srp_origins:variants/dweller" = true
+
+	[origins."origins:human"]
+		enabled = true
+
+	[origins."srp_origins:variants/thh"]
+		enabled = true
+		"srp_origins:variants/thh" = true
+
+	[origins."srp_origins:variants/piss"]
+		"srp_origins:variants/piss" = true
+		enabled = true
+
+	[origins."srp_origins:primitive/longarms"]
+		"srp_origins:tendril1" = true
+		"srp_origins:1kdownloads" = true
+		"srp_origins:parasite" = true
+		"srp_origins:primitive/longarms/length" = true
+		"srp_origins:fire_damage" = true
+		"srp_origins:biomass" = true
+		"srp_origins:primitive/longarms/orb" = true
+		enabled = true
+		"srp_origins:fool" = true
+		"srp_origins:adaptive1" = true
+		"srp_origins:primitive/longarms/creature" = true
+		"srp_origins:souls" = true
+		"srp_origins:primitive/longarms/wave" = true
+		"srp_origins:badrep" = true
+		"srp_origins:nosleep" = true
+		"srp_origins:primitive/longarms/evolution" = true
+		"srp_origins:parasitetag" = true
+		"srp_origins:upgrades" = true
+		"srp_origins:primitive/remains" = true
+		"srp_origins:phases" = true
+
+	[origins."srp_origins:variants/armored"]
+		"srp_origins:variants/armored" = true
+		enabled = true
+
+	[origins."srp_origins:variants/charred"]
+		"srp_origins:variants/charred" = true
+		enabled = true
+
+	[origins."origins:merling"]
+		"origins:air_from_potions" = true
+		"origins:swim_speed" = true
+		"origins:water_vision" = true
+		"origins:like_water" = true
+		"origins:aqua_affinity" = true
+		"origins:water_breathing" = true
+		"origins:conduit_power_on_land" = true
+		enabled = true
+		"origins:aquatic" = true
+
+	[origins."origins:blazeborn"]
+		"origins:water_vulnerability" = true
+		"origins:flame_particles" = true
+		"origins:burning_wrath" = true
+		"origins:hotblooded" = true
+		"origins:fire_immunity" = true
+		"origins:damage_from_snowballs" = true
+		"origins:nether_spawn" = true
+		"origins:damage_from_potions" = true
+		enabled = true
+
+	[origins."srp_origins:variants/haywire"]
+		"srp_origins:variants/haywire" = true
+		enabled = true
+
+	[origins."srp_origins:transforms/thrall"]
+		"srp_origins:transforms/thrall" = true
+		enabled = true
+

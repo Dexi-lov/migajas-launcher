@@ -1,0 +1,18 @@
+node_modules
+dist
+dist_electron
+out
+build
+.DS_Store
+.env
+.idea
+.vscode
+*.log
+# Importante: Ignorar la carpeta del juego si se creó dentro del proyecto
+minecraft
+.migajas_mc
+# Ignorar instaladores y ejecutables
+*.exe
+*.dmg
+*.zip
+*.msi

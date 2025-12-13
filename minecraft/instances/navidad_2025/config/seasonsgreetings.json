@@ -1,0 +1,23 @@
+{
+  "warningPings": true,
+  "calmerWarnings": false,
+  "eggnogEffects": true,
+  "negativeEggnogEffects": true,
+  "crazyGingerbreadMen": true,
+  "gingerbreadManCopyBreak": true,
+  "snowGolemsEquippable": true,
+  "snowGolemItemHats": false,
+  "stationarySnowGolems": true,
+  "meltedSnowGolems": true,
+  "witchHouse": true,
+  "gingerbreadBlocks": true,
+  "stringLights": true,
+  "snowBlocks": true,
+  "wreathBlock": true,
+  "icicle": true,
+  "peppermint": true,
+  "chocolate": true,
+  "icing": true,
+  "gumdrops": true,
+  "gifts": true
+}

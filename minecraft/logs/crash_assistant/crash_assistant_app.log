@@ -1,0 +1,74 @@
+[2025-11-22 19:02:31.135] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp running: JVM args: [-XX:+UseSerialGC, -XX:MaxHeapFreeRatio=30, -XX:MinHeapFreeRatio=10, -XX:MaxGCPauseMillis=10000, -Xms8m, -Xmx512m]
+[2025-11-22 19:02:31.142] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp running: program args: [-jarPath, local\crash_assistant\9408_1763856130455_app.jar, -parentPID, 9408, -parentStarted, 1763856130455, -platform, FORGE, -loaderJarName, fmlloader-1.20.1-47.2.0.jar, -minecraftVersion, 1.20.1, -childProcessesPIDs, NTY4ODogMTc2Mzg1NjEzMDU1NQ==, -crashAssistantModJarName, CrashAssistant-forge-1.19-1.20.1-1.10.23.jar, -classPath, local\crash_assistant\9408_1763856130455_app.jar;local\crash_assistant\9408_1763856130455_mod.jar;C:\Users\Dexs\migajas-launcher\minecraft\libraries\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\Dexs\migajas-launcher\minecraft\libraries\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\Dexs\migajas-launcher\minecraft\libraries\com\google\code\gson\gson\2.10\gson-2.10.jar;C:\Users\Dexs\migajas-launcher\minecraft\libraries\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Dexs\migajas-launcher\minecraft\libraries\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\Dexs\migajas-launcher\minecraft\libraries\net\java\dev\jna\jna-platform\5.12.1\jna-platform-5.12.1.jar, -parentXms, 2G, -parentXmx, 4G, -systemRAM, 7.4g, -processor, QU1EIFJ5emVuIDUgNDUwMFUgd2l0aCBSYWRlb24gR3JhcGhpY3MgICAgICAgICA=, -serialisedGPUs, VnVsa2FuIEdQVSBkZXRlY3Rpb24gYWRkb24gbm90IGZvdW5kLCBmYWxsaW5nIGJhY2sgdG8gRGlyZWN0WApTdWNjZXNzZnVsbHkgZGV0ZWN0ZWQgR1BVcyB1c2luZyBEaXJlY3RYOgpJTlRFR1JBVEVEIDogQU1EIFJhZGVvbihUTSkgR3JhcGhpY3MKDQo=]
+[2025-11-22 19:02:31.143] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp running from: C:\Users\Dexs\migajas-launcher\minecraft
+[2025-11-22 19:02:31.144] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: crashAssistantJarName: CrashAssistant-forge-1.19-1.20.1-1.10.23.jar
+[2025-11-22 19:02:31.144] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Parent PID: 9408
+[2025-11-22 19:02:31.145] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Parent started: 1763856130455
+[2025-11-22 19:02:31.149] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Platform: FORGE
+[2025-11-22 19:02:31.150] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: loaderJarName: fmlloader-1.20.1-47.2.0.jar
+[2025-11-22 19:02:31.150] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: minecraftVersion: 1.20.1
+[2025-11-22 19:02:31.151] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: childProcessesPIDs: 5688: 1763856130555
+[2025-11-22 19:02:31.151] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: parentXms: 2G
+[2025-11-22 19:02:31.152] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: parentXmx: 4G
+[2025-11-22 19:02:31.152] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: systemRAM: 7.4g
+[2025-11-22 19:02:31.152] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: processor: AMD Ryzen 5 4500U with Radeon Graphics         
+[2025-11-22 19:02:31.153] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Boot.serialisedGPUs:
+Vulkan GPU detection addon not found, falling back to DirectX
+Successfully detected GPUs using DirectX:
+INTEGRATED : AMD Radeon(TM) Graphics
+
+
+[2025-11-22 19:02:31.154] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: os.name: windows 11
+[2025-11-22 19:02:31.162] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Java path: C:\Users\Dexs\migajas-launcher\minecraft\runtime\jdk-17.0.10+7-jre\bin\java.exe
+[2025-11-22 19:02:31.162] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Java version: 17.0.10+7
+[2025-11-22 19:02:31.245] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantApp started successfully. Waiting for PID 9408 to stop.
+[2025-11-22 19:05:59.569] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: PID "9408" is not alive or reused by another process. Minecraft JVM appears to have stopped.
+[2025-11-22 19:05:59.739] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding latest.log from C:\Users\Dexs\migajas-launcher\minecraft\logs\latest.log
+[2025-11-22 19:05:59.770] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding debug.log from C:\Users\Dexs\migajas-launcher\minecraft\logs\debug.log
+[2025-11-22 19:05:59.918] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding crash-2025-11-22_19.03.38-fml.txt from C:\Users\Dexs\migajas-launcher\minecraft\crash-reports\crash-2025-11-22_19.03.38-fml.txt
+[2025-11-22 19:05:59.925] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: stderr_stream.log size: 385 bytes
+[2025-11-22 19:05:59.991] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding crash_assistant_app.log from C:\Users\Dexs\migajas-launcher\minecraft\logs\crash_assistant\crash_assistant_app.log
+[2025-11-22 19:05:59.997] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Reached first tick of TitleScreen: false
+[2025-11-22 19:06:00.002] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Joined world successfully: false
+[2025-11-22 19:06:00.003] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: stop() function of Minecraft fired: false
+[2025-11-22 19:06:00.005] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: close() function of Minecraft failed: false
+[2025-11-22 19:06:00.008] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: emergencySave() function of Minecraft fired: false
+[2025-11-22 19:06:00.060] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: isModpackCreator: true
+[2025-11-22 19:06:00.067] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: isHelpLinkDefault: true
+[2025-11-22 19:06:00.071] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: helpLink: https://discord.minecraftforge.net
+[2025-11-22 19:06:00.074] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Seems like Minecraft crashed. Starting Crash Assistant app.
+[2025-11-22 19:06:02.254] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: CrashAssistantGUI took to start: 2.681 seconds.
+[2025-11-22 19:06:03.592] [INFO] [dev.kostromdan.mods.crash_assistant.common_config.mod_list.ModListUtils]: Parsed 113 mod(s) metadata in 1321 ms
+[2025-11-22 19:06:03.675] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Adding modlist.txt from C:\Users\Dexs\migajas-launcher\minecraft\logs\modlist.txt
+[2025-11-22 19:06:03.816] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Minecraft process have not reached out our renderer parsing hook, but successfully parsed renderer from logs: AMD Radeon(TM) Graphics
+[2025-11-22 19:06:03.833] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Minecraft is running on renderer:
+AMD Radeon(TM) Graphics
+[2025-11-22 19:06:03.920] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Reading finished in 14 ms
+[2025-11-22 19:06:03.971] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Analysis finished in 118 ms
+[2025-11-22 19:06:03.994] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Showing KnownCrashReason: MissingUnsupportedDependencies
+
+ 
+We detected a dependency conflict in **latest.log**:
+Missing or unsupported mandatory dependencies:
+    Mod ID: 'forge', Requested by: 'biomeswevegone', Expected range: '[47.4,)', Actual version: '47.2.0'
+ 
+To fix this issue, read the message above **carefully** and try to resolve all conflicts.
+ 
+Map of mod IDs to JAR names involved (for reference only):
+forge -> fmlloader-1.20.1-47.2.0.jar (modloader)
+biomeswevegone -> Oh-The-Biomes-Weve-Gone-Forge-1.7.1.jar
+ 
+
+[2025-11-22 19:06:10.807] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Shown KnownCrashReason: MissingUnsupportedDependencies (Seen warning for 6.744s)
+[2025-11-22 19:06:10.807] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Showing KnownCrashReason: NeoForgeVersion1_20_1
+
+ 
+You are either playing a very outdated version of MinecraftForge, or using NeoForge on 1.20.1.
+Both are known to cause many issues and crashes.
+If you are playing Neo, the official documentation says to switch back to Forge, as Neo has dropped support for 1.20.1 and focused on newer versions.
+If you are playing MinecraftForge, update the modloader to recent versions.
+Newer builds of Forge also have improved performance or are better optimised.
+ 
+
+[2025-11-22 19:06:13.304] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Shown KnownCrashReason: NeoForgeVersion1_20_1 (Seen warning for 2.465s)
+[2025-11-22 19:06:17.121] [INFO] [dev.kostromdan.mods.crash_assistant.app.CrashAssistantApp]: Crash Assistant closed.

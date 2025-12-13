@@ -1,0 +1,769 @@
+[13Dec2025 07:12:29.254] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--fml.neoForgeVersion, 21.1.216, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient, --username, ElDexs, --version, 1.21.1, --gameDir, C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025, --assetsDir, C:\Users\Dexs\migajas-launcher\minecraft\assets, --assetIndex, 1.21.1, --uuid, 6a48f68a9bad4a5485fa05f9722d0ecf, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, 86b809-a73100-3b4445-cd281a-7b1489, --xuid, 2535424171067981, --userType, msa, --versionType, release]
+[13Dec2025 07:12:29.261] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.1+12-LTS
+[13Dec2025 07:12:29.268] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.1 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[13Dec2025 07:12:30.928] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[13Dec2025 07:12:31.198] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[13Dec2025 07:12:31.850] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[13Dec2025 07:12:32.444] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Dexs/migajas-launcher/minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23121!/ Service=ModLauncher Env=CLIENT
+[13Dec2025 07:12:32.857] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon(TM) Graphics GL version 4.6.0 Core Profile Context 25.8.1.250617, ATI Technologies Inc.
+[13Dec2025 07:12:33.381] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.216:client]
+[13Dec2025 07:12:33.484] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.216-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[C:\Users\Dexs\migajas-launcher\minecraft\libraries\net\neoforged\neoforge\21.1.216\neoforge-21.1.216-universal.jar]], reader: mod manifest]
+[13Dec2025 07:12:33.580] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[1.21.1] SecurityCraft v1.10.1.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.616] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[neoforge]ctov-3.6.0b.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.704] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "amwplushies-neoforge-1.21.1-4.4.0.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.717] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "appleskin-neoforge-mc1.21-3.0.7.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.732] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "baguettelib-1.21.1-NeoForge-1.1.5.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.759] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "balm-neoforge-1.21.1-21.0.55.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.800] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "camera-neoforge-1.21.1-1.0.21.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.827] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "carryon-neoforge-1.21.1-2.2.2.11.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.844] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "christmasmusicdiscs-1.21.1-v1.3.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.864] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.873] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Controlling-neoforge-1.21.1-19.0.5.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.884] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.896] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "eatinganimation-1.21.0-6.0.1.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.904] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "entity_model_features_1.21-neoforge-3.0.7.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.914] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "entity_texture_features_1.21-neoforge-7.0.6.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.921] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "entityculling-neoforge-1.9.4-mc1.21.1.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.932] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "FarmersDelight-1.21.1-1.2.9.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.940] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fatchicken-neoforge-1.21.1-3.0.0.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.968] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ferritecore-7.0.2-neoforge.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.985] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "FramedBlocks-10.5.1.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:33.997] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.21.1-4.8.2.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.006] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "gml-6.0.2.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.018] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "herbsandharvest-1.21.1-2.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.032] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "holdmyitemsnf-1.21.1v2.1.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.045] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "IceAndFireCE-2.0-beta.10-1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.054] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "immersive_melodies-neoforge-0.6.2+1.21.1.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.066] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "inv_view_neoforge-3.0.2-1.21.(5).jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.077] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "iris-neoforge-1.8.12+mc1.21.1.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.089] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Jade-1.21.1-NeoForge-15.10.3.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.100] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.1-neoforge-19.21.2.313.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.114] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jupiter-2.3.1-1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.124] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Kiwi-1.21.1-NeoForge-15.7.5.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.134] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "konkrete_neoforge_1.9.9_MC_1.21.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.143] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "lithostitched-1.5.2-neoforge-1.21.1.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.153] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-bridges-3.1.1-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.166] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-doors-1.1.2-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.180] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-furniture-3.4.1-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.192] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-holidays-1.1.2-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.202] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-lights-1.1.5-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.214] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-mcwfences-1.2.1-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.227] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-mcwpaths-1.1.1-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.237] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-mcwwindows-2.4.2-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.248] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-roofs-2.3.2-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.260] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mcw-trapdoors-1.1.5-mc1.21.1neoforge.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.268] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "melody_neoforge_1.0.10_MC_1.21.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.281] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "merrymaking-1.21.1-13.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.293] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "miku_plushie-1.8.0-1.21.1-neo-forge.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.303] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mobstein-5.2.0-neoforge-1.21.1.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.312] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "moonlight-1.21-2.27.1-neoforge.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.318] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MouseTweaks-neoforge-mc1.21-2.26.1.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.328] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MyNethersDelight-1.21.1-1.9.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.336] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "notenoughanimations-neoforge-1.10.6-mc1.21.1.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.346] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Patchouli-1.21.1-92-NEOFORGE.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.356] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "plasmovoice-neoforge-1.21-2.1.7.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.364] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "plushies-neoforge-1.5.1.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.373] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "rare-ice-neoforge-0.7.0.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.380] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.387] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Searchables-neoforge-1.21.1-1.0.2.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.395] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "seasonsgreetings-1.0.2+neoforge.1.21.1.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.406] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "shoppy2-NEOFORGE-1.21.1-2.1.2.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.412] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SnowRealMagic-1.21.1-NeoForge-12.1.2.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.421] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "snowyspirit-1.21.1-3.0.18-neoforge.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.428] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "snuffles-1.1.2.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.437] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sodium-neoforge-0.6.13+mc1.21.1.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.445] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sophisticatedbackpacks-1.21.1-3.25.16.1434.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.454] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sophisticatedcore-1.21.1-1.3.90.1260.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.460] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "toastysmobs-2.2.3-neoforge-1.21.1.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.466] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "uranus-2.4-1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.475] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "waystones-neoforge-1.21.1-21.1.24.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.483] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "winterly-0.11.2+1.21.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:34.493] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "worldedit-mod-7.3.8.jar" [locator: {mods folder locator at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\mods}, reader: mod manifest]
+[13Dec2025 07:12:36.003] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 44 dependencies adding them to mods collection
+[13Dec2025 07:12:36.003] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [parent: neoforge-21.1.216-universal.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.003] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "httpmime-4.5.10.jar" [parent: entity_texture_features_1.21-neoforge-7.0.6.jar, locator: jarinjar]
+[13Dec2025 07:12:36.004] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "groovy-macro-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.004] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kuma-api-neoforge-21.0.7+1.21.jar" [parent: balm-neoforge-1.21.1-21.0.55.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.004] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-game-rule-api-v1-1.0.53+36d727be19.jar" [parent: SnowRealMagic-1.21.1-NeoForge-12.1.2.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.004] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [parent: iris-neoforge-1.8.12+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.004] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "groovy-templates-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.004] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-api-v1-3.4.0+acb05a3919.jar" [parent: iris-neoforge-1.8.12+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.004] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.216.jar" [parent: neoforge-21.1.216-universal.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.004] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-model-loading-api-v1-2.0.0+986ae77219.jar" [parent: SnowRealMagic-1.21.1-NeoForge-12.1.2.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.004] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jackson-databind-2.18.1.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.004] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "opensesame-groovy-0.5.13.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.006] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jcpp-1.4.14.jar" [parent: iris-neoforge-1.8.12+mc1.21.1.jar, locator: jarinjar]
+[13Dec2025 07:12:36.006] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TRender-1.0.10-1.21.1-neoforge-SNAPSHOT.jar" [parent: entityculling-neoforge-1.9.4-mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.006] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "gml-core-7.0.3.jar" [parent: gml-6.0.2.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.006] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jackson-core-2.18.1.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.006] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-indigo-1.7.0+acb05a3919.jar" [parent: SnowRealMagic-1.21.1-NeoForge-12.1.2.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.006] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "groovybundler-2.1.7.jar" [parent: gml-core-7.0.3.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.006] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cgl-1.21-neoforge-0.5.1.jar" [parent: gml-6.0.2.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.006] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "groovy-contracts-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.006] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "opensesame-core-0.5.13.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.006] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "groovy-datetime-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.006] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-transformer-2.0.1.jar" [parent: iris-neoforge-1.8.12+mc1.21.1.jar, locator: jarinjar]
+[13Dec2025 07:12:36.007] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar" [parent: iris-neoforge-1.8.12+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.007] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "groovy-dateutil-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.007] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jackson-annotations-2.18.1.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.007] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "groovy-ginq-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.007] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.caffeinemc.sodium-neoforge-0.6.13+mc1.21.1-service.jar" [parent: sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.007] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "groovy-macro-library-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.007] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "midnightlib-1.6.3-neoforge.jar" [parent: seasonsgreetings-1.0.2+neoforge.1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.007] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jackson-dataformat-toml-2.18.1.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.007] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-neoforge-13.0.8.jar" [parent: uranus-2.4-1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.007] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "TRansition-1.0.11-1.21.1-neoforge-SNAPSHOT.jar" [parent: entityculling-neoforge-1.9.4-mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.008] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "groovy-typecheckers-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.008] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "groovy-nio-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.008] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar" [parent: iris-neoforge-1.8.12+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.008] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "groovy-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.008] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "groovy-toml-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.008] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "groovy-xml-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.008] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "forgified-fabric-loader-2.5.29+0.16.0+1.21-full.jar" [parent: SnowRealMagic-1.21.1-NeoForge-12.1.2.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.008] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "integration-neoforge-0.2.jar" [parent: IceAndFireCE-2.0-beta.10-1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.008] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "opensesame-compile-0.5.13.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.008] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "groovy-json-4.0.24.jar" [parent: groovybundler-2.1.7.jar, locator: jarinjar, reader: mod manifest]
+[13Dec2025 07:12:36.009] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jankson-1.2.3.jar" [parent: cgl-1.21-neoforge-0.5.1.jar, locator: jarinjar]
+[13Dec2025 07:12:36.013] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		A Man With Plushies 4.4.0 (a_man_with_plushies)
+		AppleSkin 3.0.7+mc1.21 (appleskin)
+		Architectury 13.0.8 (architectury)
+		BaguetteLib 1.1.5 (baguettelib)
+		Balm 21.0.55 (balm)
+		Camera Mod 1.21.1-1.0.21 (camera)
+		Carry On 2.2.2 (carryon)
+		ChoiceTheorem's Overhauled Village 3.6.0 (ctov)
+		christmasmusicdiscs 1.0.0 (christmasmusicdiscs)
+		Cloth Config v15 API 15.0.140 (cloth_config)
+		CommonGroovyLibrary 0.5.1 (commongroovylibrary)
+		Controlling 19.0.5 (controlling)
+		Curios API 9.5.1+1.21.1 (curios)
+		Eating Animation 6.0.1 (eatinganimation)
+		Entity Model Features 3.0.7 (entity_model_features)
+		Entity Texture Features 7.0.6 (entity_texture_features)
+		EntityCulling 1.9.4 (entityculling)
+		Farmer's Delight 1.2.9 (farmersdelight)
+		Fat Chickens 3.0.0 (fatchicken)
+		Ferrite Core 7.0.2 (ferritecore)
+		Forgified Fabric API Base 0.4.42+d1308ded19 (fabric_api_base)
+		Forgified Fabric BlockView API (v2) 1.0.10+9afaaf8c19 (fabric_block_view_api_v2)
+		Forgified Fabric Game Rule API (v1) 1.0.53+36d727be19 (fabric_game_rule_api_v1)
+		Forgified Fabric Model Loading API (v1) 2.0.0+986ae77219 (fabric_model_loading_api_v1)
+		Forgified Fabric Renderer - Indigo 1.7.0+acb05a3919 (fabric_renderer_indigo)
+		Forgified Fabric Renderer API (v1) 3.4.0+acb05a3919 (fabric_renderer_api_v1)
+		Forgified Fabric Rendering Data Attachment (v1) 0.3.48+73761d2e19 (fabric_rendering_data_attachment_v1)
+		FramedBlocks 10.5.1 (framedblocks)
+		GeckoLib 4 4.8.2 (geckolib)
+		GroovyModLoader 6.0.2 (gml)
+		HoldMyItems 2.0 (holdmyitemsnf)
+		Ice And Fire Community Edition 2.0-beta.10 (iceandfire)
+		Immersive Melodies 0.6.2+1.21.1 (immersive_melodies)
+		Integration 0.2 (integration)
+		InvView_Neoforge  3.0.2-1.21.(5) (inv_view_neoforge)
+		Iris 1.8.12-snapshot+mc1.21.1-local (iris)
+		Jade 15.10.3+neoforge (jade)
+		Jupiter 2.3.1 (jupiter)
+		Just Enough Items 19.21.2.313 (jei)
+		Kiwi Library 15.7.5+neoforge (kiwi)
+		Konkrete 1.9.9 (konkrete)
+		KumaAPI 21.0.7 (kuma_api)
+		Lithostitched 1.5.2 (lithostitched)
+		Macaw's Bridges 3.1.1 (mcwbridges)
+		Macaw's Doors 1.1.2 (mcwdoors)
+		Macaw's Fences and Walls 1.2.1 (mcwfences)
+		Macaw's Furniture 3.4.1 (mcwfurnitures)
+		Macaw's Holidays 1.1.2 (mcwholidays)
+		Macaw's Lights and Lamps 1.1.5 (mcwlights)
+		Macaw's Paths and Pavings 1.1.1 (mcwpaths)
+		Macaw's Roofs 2.3.2 (mcwroofs)
+		Macaw's Trapdoors 1.1.5 (mcwtrpdoors)
+		Macaw's Windows 2.4.2 (mcwwindows)
+		Mama's Herbs and Harvest 1.0.0 (herbsandharvest)
+		Mama's MerryMaking 1.21.1-13 (merrymaking)
+		Melody 1.0.10 (melody)
+		MidnightLib 1.6.3 (midnightlib)
+		Miku Plushie 1.8.0-1.21.1-neo-forge (miku_plushie)
+		Minecraft 1.21.1 (minecraft)
+		Mobstein 5.2.0 (mobstein)
+		Moonlight Lib 1.21-2.27.1 (moonlight)
+		Mouse Tweaks 2.26.1 (mousetweaks)
+		My Nether's Delight 1.9 (mynethersdelight)
+		NeoForge 21.1.216 (neoforge)
+		NotEnoughAnimations 1.10.6 (notenoughanimations)
+		Patchouli 1.21.1-92-NEOFORGE (patchouli)
+		Plasmo Voice 2.1.7 (plasmovoice)
+		Plushie Mod 1.5.1 (plushies)
+		Rare Ice 0.7.0 (rare_ice)
+		Reese's Sodium Options 1.8.3+mc1.21.4 (reeses_sodium_options)
+		Searchables 1.0.2 (searchables)
+		Season's Greetings 1.0.2+neoforge.1.21.1 (seasonsgreetings)
+		SecurityCraft 1.10.1 (securitycraft)
+		Shoppy 2.1.2 (shoppy)
+		Snow! Real Magic! 12.1.2+neoforge (snowrealmagic)
+		Snowy Spirit 1.21.1-3.0.18 (snowyspirit)
+		Snuffles 1.1.2 (snuffles)
+		Sodium 0.6.13+mc1.21.1 (sodium)
+		Sophisticated Backpacks 3.25.16 (sophisticatedbackpacks)
+		Sophisticated Core 1.3.90 (sophisticatedcore)
+		Toasty's Mobs 2.2.3 (toastysmobs)
+		TRansition 1.0.11 (transition)
+		TRender 1.0.10 (trender)
+		Uranus 2.4 (uranus)
+		Waystones 21.1.24 (waystones)
+		Winterly 0.11.2+1.21 (winterly)
+		WorldEdit 7.3.8+6939-7d32b45 (worldedit)
+[13Dec2025 07:12:42.492] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[13Dec2025 07:12:42.977] [main/INFO] [net.fabricmc.loader.impl.bootstrap.FabricLoaderBootstrap/]: Propagating FML mod list to Fabric Loader
+[13Dec2025 07:12:43.010] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.21.1, --gameDir, C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025, --assetsDir, C:\Users\Dexs\migajas-launcher\minecraft\assets, --uuid, 6a48f68a9bad4a5485fa05f9722d0ecf, --username, ElDexs, --assetIndex, 1.21.1, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, 86b809-a73100-3b4445-cd281a-7b1489, --xuid, 2535424171067981, --userType, msa, --versionType, release]
+[13Dec2025 07:12:43.177] [main/WARN] [mixin/]: Reference map 'kiwi.refmap.json' for kiwi.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.178] [main/WARN] [mixin/]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.184] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.197] [main/WARN] [mixin/]: Reference map 'waystones.refmap.json' for waystones.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.208] [main/WARN] [mixin/]: Reference map 'controlling.refmap.json' for controlling.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.209] [main/WARN] [mixin/]: Reference map 'controlling.refmap.json' for controlling.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.217] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.218] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.222] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.222] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.223] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.238] [main/WARN] [mixin/]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.243] [main/WARN] [mixin/]: Reference map 'snowrealmagic.refmap.json' for snowrealmagic.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.299] [main/INFO] [Sodium/]: Loaded configuration file for Sodium: 43 options available, 1 override(s) found
+[13Dec2025 07:12:43.597] [main/WARN] [mixin/]: Reference map 'carryon.refmap.json' for carryon.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.608] [main/WARN] [mixin/]: Reference map 'melody.refmap.json' for melody.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.610] [main/WARN] [mixin/]: Reference map 'melody.refmap.json' for melody.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.615] [main/WARN] [mixin/]: Reference map 'konkrete.refmap.json' for konkrete.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.618] [main/WARN] [mixin/]: Reference map 'konkrete.refmap.json' for konkrete.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.648] [main/WARN] [mixin/]: Reference map 'holdmyitemsnf.refmap.json' for holdmyitemsnf.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.651] [main/WARN] [mixin/]: Reference map 'reeses-sodium-options.refmap.json' for reeses-sodium-options.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.653] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.654] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.656] [main/WARN] [mixin/]: Reference map 'patchouli.refmap.json' for patchouli_xplat.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.658] [main/WARN] [mixin/]: Reference map 'securitycraft.refmap.json' for securitycraft.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.658] [main/WARN] [mixin/]: Reference map 'searchables.refmap.json' for searchables.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.658] [main/WARN] [mixin/]: Reference map 'searchables.refmap.json' for searchables.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.661] [main/WARN] [mixin/]: Reference map 'entityculling.refmap.mixins.json' for entityculling.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.662] [main/WARN] [mixin/]: Reference map 'worldedit-neoforge.mixins.refmap.json' for worldedit-neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.714] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.predicates.mixin.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.717] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.fastmap.mixin.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.719] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.mrl.mixin.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.730] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupmultipart.mixin.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.731] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.blockstatecache.mixin.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.733] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupbakedquad.mixin.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.742] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.threaddetec.mixin.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.746] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.modelsides.mixin.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.750] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.accessors.mixin.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.761] [main/WARN] [mixin/]: Reference map 'immersive_melodies.refmap.json' for immersive_melodies.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:43.761] [main/WARN] [mixin/]: Reference map 'camera.refmap.json' for camera.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2025 07:12:45.350] [main/WARN] [mixin/]: Error loading class: com/portingdeadmods/cable_facades/events/GameClientEvents$2 (java.lang.ClassNotFoundException: com.portingdeadmods.cable_facades.events.GameClientEvents$2)
+[13Dec2025 07:12:45.352] [main/WARN] [mixin/]: Error loading class: com/direwolf20/justdirethings/client/renderers/OurRenderTypes (java.lang.ClassNotFoundException: com.direwolf20.justdirethings.client.renderers.OurRenderTypes)
+[13Dec2025 07:12:45.355] [main/WARN] [mixin/]: Error loading class: mekanism/client/render/entity/RenderFlame (java.lang.ClassNotFoundException: mekanism.client.render.entity.RenderFlame)
+[13Dec2025 07:12:45.356] [main/WARN] [mixin/]: Error loading class: mekanism/client/render/armor/MekaSuitArmor (java.lang.ClassNotFoundException: mekanism.client.render.armor.MekaSuitArmor)
+[13Dec2025 07:12:45.360] [main/WARN] [mixin/]: Error loading class: mekanism/client/render/lib/effect/BillboardingEffectRenderer (java.lang.ClassNotFoundException: mekanism.client.render.lib.effect.BillboardingEffectRenderer)
+[13Dec2025 07:12:45.373] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/client/utils/IEGLShaders (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.client.utils.IEGLShaders)
+[13Dec2025 07:12:45.533] [main/WARN] [mixin/]: Error loading class: fuzs/diagonalblocks/world/phys/shapes/VoxelCollection (java.lang.ClassNotFoundException: fuzs.diagonalblocks.world.phys.shapes.VoxelCollection)
+[13Dec2025 07:12:45.533] [main/WARN] [mixin/]: @Mixin target fuzs.diagonalblocks.world.phys.shapes.VoxelCollection was not found snowrealmagic.mixins.json:diagonalblocks.VoxelCollectionAccess from mod snowrealmagic
+[13Dec2025 07:12:45.536] [main/WARN] [mixin/]: Error loading class: sereneseasons/season/RandomUpdateHandler (java.lang.ClassNotFoundException: sereneseasons.season.RandomUpdateHandler)
+[13Dec2025 07:12:45.537] [main/WARN] [mixin/]: @Mixin target sereneseasons.season.RandomUpdateHandler was not found snowrealmagic.mixins.json:sereneseasons.RandomUpdateHandlerMixin from mod snowrealmagic
+[13Dec2025 07:12:45.544] [main/WARN] [mixin/]: Error loading class: fuzs/diagonalblocks/client/handler/DiagonalModelHandler (java.lang.ClassNotFoundException: fuzs.diagonalblocks.client.handler.DiagonalModelHandler)
+[13Dec2025 07:12:45.545] [main/WARN] [mixin/]: @Mixin target fuzs.diagonalblocks.client.handler.DiagonalModelHandler was not found snowrealmagic.mixins.json:diagonalblocks.DiagonalModelHandlerMixin from mod snowrealmagic
+[13Dec2025 07:12:45.567] [main/WARN] [Sodium/]: Force-disabling mixin 'features.render.world.sky.FogRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[13Dec2025 07:12:45.568] [main/WARN] [Sodium/]: Force-disabling mixin 'features.render.world.sky.ClientLevelMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[13Dec2025 07:12:45.568] [main/WARN] [Sodium/]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[13Dec2025 07:12:45.756] [main/WARN] [mixin/]: Error loading class: net/raphimc/immediatelyfast/feature/core/BatchableBufferSource (java.lang.ClassNotFoundException: net.raphimc.immediatelyfast.feature.core.BatchableBufferSource)
+[13Dec2025 07:12:45.758] [main/WARN] [mixin/]: Error loading class: dev/tr7zw/skinlayers/render/CustomizableModelPart (java.lang.ClassNotFoundException: dev.tr7zw.skinlayers.render.CustomizableModelPart)
+[13Dec2025 07:12:46.030] [main/WARN] [mixin/]: Error loading class: me/cominixo/betterf3/modules/TargetModule (java.lang.ClassNotFoundException: me.cominixo.betterf3.modules.TargetModule)
+[13Dec2025 07:12:46.030] [main/WARN] [mixin/]: @Mixin target me.cominixo.betterf3.modules.TargetModule was not found securitycraft.mixins.json:f3.BetterF3TargetModuleMixin from mod securitycraft
+[13Dec2025 07:12:46.537] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[13Dec2025 07:12:52.205] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 1176 milliseconds
+[13Dec2025 07:13:06.751] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Dexs/migajas-launcher/minecraft/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23259!/assets/.mcassetsroot' uses unexpected schema
+[13Dec2025 07:13:06.754] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Dexs/migajas-launcher/minecraft/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23259!/data/.mcassetsroot' uses unexpected schema
+[13Dec2025 07:13:06.819] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13Dec2025 07:13:06.842] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: ElDexs
+[13Dec2025 07:13:07.171] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[13Dec2025 07:13:07.280] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Vendor: ATI Technologies Inc.
+[13Dec2025 07:13:07.280] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Renderer: AMD Radeon(TM) Graphics
+[13Dec2025 07:13:07.280] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Version: 4.6.0 Core Profile Context 25.8.1.250617
+[13Dec2025 07:13:07.672] [Render thread/INFO] [Iris/]: Debug functionality is disabled.
+[13Dec2025 07:13:07.678] [Render thread/INFO] [Iris/]: OpenGL 4.5 detected, enabling DSA.
+[13Dec2025 07:13:07.746] [Render thread/ERROR] [Iris/]: Pack "Just Colored Lighting (v0.4.2).zip" is not valid! Can't load it.
+[13Dec2025 07:13:07.746] [Render thread/WARN] [Iris/]: Falling back to normal rendering without shaders because the shaderpack could not be loaded
+[13Dec2025 07:13:07.792] [ForkJoinPool.commonPool-worker-4/WARN] [Iris/]: [Iris Update Check] Failed to get update info!
+java.io.IOException: Server returned HTTP response code: 504 for URL: https://github.com/IrisShaders/Iris-Update-Index/releases/download/asd/updateIndex.json
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:?]
+	at java.base/java.net.URL.openStream(Unknown Source) ~[?:?]
+	at TRANSFORMER/iris@1.8.12-snapshot+mc1.21.1-local/net.irisshaders.iris.UpdateChecker.lambda$checkForUpdates$0(UpdateChecker.java:89) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:?]
+[13Dec2025 07:13:08.774] [modloading-worker-0/WARN] [patchouli/]: Could not locate JEI keybindings, lookups in books may not work
+[13Dec2025 07:13:08.949] [modloading-worker-0/INFO] [net.fabricmc.fabric.impl.client.indigo.Indigo/]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[13Dec2025 07:13:09.001] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[13Dec2025 07:13:09.013] [modloading-worker-0/INFO] [snownee.kiwi.Kiwi/INIT]: Processing 9 KiwiModule annotations
+[13Dec2025 07:13:09.015] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 11.32 milliseconds
+[13Dec2025 07:13:09.038] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.216, for MC 1.21.1
+[13Dec2025 07:13:09.163] [modloading-worker-0/INFO] [net.blay09.mods.balm.neoforge.config.NeoForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 31 properties.
+[13Dec2025 07:13:10.207] [modloading-worker-0/INFO] [snownee.kiwi.Kiwi/]: Kiwi Customization is enabled
+[13Dec2025 07:13:10.280] [modloading-worker-0/INFO] [de.keksuccino.melody.Melody/]: [MELODY] Loading v1.0.10 on NEOFORGE...
+[13Dec2025 07:13:10.314] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Loading v1.9.9 in client-side mode on NEOFORGE!
+[13Dec2025 07:13:10.314] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: ---------------------------
+[13Dec2025 07:13:10.315] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
+[13Dec2025 07:13:10.315] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[13Dec2025 07:13:10.315] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Open Imaging Copyright © 2014 Dhyan Blum.
+[13Dec2025 07:13:10.315] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Open Imaging is licensed under Apache-2.0.
+[13Dec2025 07:13:10.315] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[13Dec2025 07:13:10.315] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: JsonPath Copyright © 2017 Jayway.
+[13Dec2025 07:13:10.315] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: JsonPath is licensed under Apache-2.0.
+[13Dec2025 07:13:10.315] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[13Dec2025 07:13:10.315] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Json-smart Copyright © netplex.
+[13Dec2025 07:13:10.316] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Json-smart is licensed under Apache-2.0.
+[13Dec2025 07:13:10.316] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[13Dec2025 07:13:10.316] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Exp4j Copyright © Frank Asseg.
+[13Dec2025 07:13:10.316] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
+[13Dec2025 07:13:10.316] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: ---------------------------
+[13Dec2025 07:13:10.316] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side modules initialized and ready to use!
+[13Dec2025 07:13:10.631] [modloading-worker-0/INFO] [Entity Texture Features/]: [ETF]: Modifying ETF Render State constructor because: for EMF
+[13Dec2025 07:13:10.631] [modloading-worker-0/INFO] [traben.entity_model_features.EMF/]: Loading Entity Model Features, now moving all models 0.00001 blocks to the left every 4 seconds.
+[13Dec2025 07:13:10.726] [modloading-worker-0/INFO] [Entity Texture Features/]: Loading Entity Texture Features, breaking your resource packs since 17 Jan 2022.
+[13Dec2025 07:13:10.868] [modloading-worker-0/INFO] [Moonlight/]: Detected config change in moonlight-common.toml, from neoforge config event
+[13Dec2025 07:13:10.878] [modloading-worker-0/INFO] [gml/]: Initialised GML mod. Version: 6.0.2
+[13Dec2025 07:13:10.982] [modloading-worker-0/INFO] [Moonlight/]: Detected config change in snowyspirit-common.toml, from neoforge config event
+[13Dec2025 07:13:11.013] [modloading-worker-0/INFO] [Entity Texture Features/]: [ETF]: 6 new ETF Random Properties registered by entity_model_features
+[13Dec2025 07:13:11.462] [modloading-worker-0/INFO] [commongroovylibrary/]: CGL NeoForge initialised
+[13Dec2025 07:13:13.513] [modloading-worker-0/INFO] [com.github.razorplay01.inv_view.InvViewNeoforge/]: InvView Neoforge initialized.
+[13Dec2025 07:13:16.028] [modloading-sync-worker/INFO] [snownee.kiwi.Kiwi/INIT]: Module [snowrealmagic:core] initialized
+[13Dec2025 07:13:16.031] [modloading-sync-worker/INFO] [snownee.kiwi.Kiwi/INIT]: 		block: 11, block_entity_type: 2, loot_pool_entry_type: 1
+[13Dec2025 07:13:16.031] [modloading-sync-worker/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:block_templates] initialized
+[13Dec2025 07:13:16.031] [modloading-sync-worker/INFO] [snownee.kiwi.Kiwi/INIT]: 		kiwi:block_template: 2
+[13Dec2025 07:13:16.031] [modloading-sync-worker/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:builder_rules] initialized
+[13Dec2025 07:13:16.031] [modloading-sync-worker/INFO] [snownee.kiwi.Kiwi/INIT]: 		kiwi:builder_rule: 2
+[13Dec2025 07:13:16.031] [modloading-sync-worker/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:block_components] initialized
+[13Dec2025 07:13:16.032] [modloading-sync-worker/INFO] [snownee.kiwi.Kiwi/INIT]: 		kiwi:block_component: 10
+[13Dec2025 07:13:16.032] [modloading-sync-worker/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:data] initialized
+[13Dec2025 07:13:16.032] [modloading-sync-worker/INFO] [snownee.kiwi.Kiwi/INIT]: 		recipe_serializer: 2, neoforge:condition_codecs: 2
+[13Dec2025 07:13:16.032] [modloading-sync-worker/INFO] [snownee.kiwi.Kiwi/INIT]: Module [kiwi:item_templates] initialized
+[13Dec2025 07:13:16.032] [modloading-sync-worker/INFO] [snownee.kiwi.Kiwi/INIT]: 		kiwi:item_template: 3
+[13Dec2025 07:13:47.688] [modloading-sync-worker/INFO] [Moonlight/]: Initialized block sets in 41ms
+[13Dec2025 07:14:01.870] [modloading-sync-worker/WARN] [net.neoforged.fml.config.ConfigTracker/]: Opening a config that was already loaded with value LoadedConfig[config=SynchronizedConfig{DataHolder:{particles=SynchronizedConfig{DataHolder:{glow_particle_mode=1, sled_sound_volume=1.2}}}}, path=C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\config\snowyspirit-client.toml, modConfig=net.neoforged.fml.config.ModConfig@480127fc] at path snowyspirit-client.toml
+[13Dec2025 07:14:01.873] [modloading-sync-worker/WARN] [net.neoforged.fml.config.ConfigTracker/]: Opening a config that was already loaded with value LoadedConfig[config=SynchronizedConfig{DataHolder:{general=SynchronizedConfig{DataHolder:{merge_dynamic_resource_packs=true, lazy_map_upload=true, maps_mipmap=3, consistent_entity_renderer_shading=NO_GUI, debug_renderers=false, tags_tooltips=OFF}}}}, path=C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\config\moonlight-client.toml, modConfig=net.neoforged.fml.config.ModConfig@27b4b96a] at path moonlight-client.toml
+[13Dec2025 07:14:01.981] [modloading-sync-worker/WARN] [net.neoforged.fml.config.ConfigTracker/]: Opening a config that was already loaded with value LoadedConfig[config=SynchronizedConfig{DataHolder:{general=SynchronizedConfig{DataHolder:{extra_debug=false, extra_children_debug=false, faster_cache_search=true, global_datapacks_folder=moonlight-global-datapacks}}}}, path=C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\config\moonlight-common.toml, modConfig=net.neoforged.fml.config.ModConfig@5bc4f957] at path moonlight-common.toml
+[13Dec2025 07:14:01.984] [modloading-sync-worker/INFO] [Moonlight/]: Detected config change in moonlight-common.toml, from neoforge config event
+[13Dec2025 07:14:01.987] [modloading-sync-worker/WARN] [net.neoforged.fml.config.ConfigTracker/]: Opening a config that was already loaded with value LoadedConfig[config=SynchronizedConfig{DataHolder:{snowy_season=SynchronizedConfig{DataHolder:{snow_season_start=SynchronizedConfig{DataHolder:{month=12, day=20}}, snow_season_end=SynchronizedConfig{DataHolder:{month=1, day=30}}, season_mod_compat=SynchronizedConfig{DataHolder:{enabled=false}}}}, misc=SynchronizedConfig{DataHolder:{custom_configured_screen=true, mod_creative_tab=false}}, blocks_and_items=SynchronizedConfig{DataHolder:{gumdrop=true, glow_lights=true, candy_cane=true, ginger=true, eggnog=true, wreath=true, snow_globe=true, gingerbread_golem=true}}, sled=SynchronizedConfig{DataHolder:{enabled=true, max_sled_puller_size=1.25, physics=SynchronizedConfig{DataHolder:{friction=SynchronizedConfig{DataHolder:{sand_slipperiness=0.83, snow_slipperiness=0.985, ice_slipperiness_mult=0.97, slope_slipperiness_increment=0.06, rotation_slipperiness=0.92, rotation_slipperiness_on_forward_acceleration=0.75}}, steering=SynchronizedConfig{DataHolder:{forward_acceleration=0.015, forward_acceleration_with_wolf=0.017, forward_acceleration_when_not_on_snow=0.037, backwards_acceleration=0.005, steer_factor=0.042, steer_factor_with_wolf=0.067}}}}}}}}, path=C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\config\snowyspirit-common.toml, modConfig=net.neoforged.fml.config.ModConfig@6d81afa6] at path snowyspirit-common.toml
+[13Dec2025 07:14:01.993] [modloading-sync-worker/INFO] [Moonlight/]: Detected config change in snowyspirit-common.toml, from neoforge config event
+[13Dec2025 07:14:02.518] [Render thread/INFO] [Moonlight/]: Merging 2 images using mode MIN_AREA_NO_UPSCALE
+[13Dec2025 07:14:07.322] [Render thread/INFO] [Sodium/]: Block securitycraft:reinforced_dispenser had its color provider replaced with net.geforcemods.securitycraft.ClientHandler$$Lambda/0x000002a7d54af948@6b0c851b and will not use per-vertex coloring
+[13Dec2025 07:14:07.322] [Render thread/INFO] [Sodium/]: Block securitycraft:reinforced_dropper had its color provider replaced with net.geforcemods.securitycraft.ClientHandler$$Lambda/0x000002a7d54af948@6b0c851b and will not use per-vertex coloring
+[13Dec2025 07:14:07.322] [Render thread/INFO] [Sodium/]: Block securitycraft:reinforced_hopper had its color provider replaced with net.geforcemods.securitycraft.ClientHandler$$Lambda/0x000002a7d54af948@6b0c851b and will not use per-vertex coloring
+[13Dec2025 07:14:07.322] [Render thread/INFO] [Sodium/]: Block securitycraft:reinforced_observer had its color provider replaced with net.geforcemods.securitycraft.ClientHandler$$Lambda/0x000002a7d54af948@6b0c851b and will not use per-vertex coloring
+[13Dec2025 07:14:07.322] [Render thread/INFO] [Sodium/]: Block securitycraft:reinforced_grass_block had its color provider replaced with net.geforcemods.securitycraft.ClientHandler$$Lambda/0x000002a7d54afb60@27f0a71d and will not use per-vertex coloring
+[13Dec2025 07:14:07.324] [Render thread/INFO] [Sodium/]: Block securitycraft:reinforced_water_cauldron had its color provider replaced with net.geforcemods.securitycraft.ClientHandler$$Lambda/0x000002a7d54afd78@e77180e and will not use per-vertex coloring
+[13Dec2025 07:14:08.622] [Render thread/INFO] [Iris/]: Hardware information:
+[13Dec2025 07:14:08.624] [Render thread/INFO] [Iris/]: CPU: 6x AMD Ryzen 5 4500U with Radeon Graphics 
+[13Dec2025 07:14:08.625] [Render thread/INFO] [Iris/]: GPU: AMD Radeon(TM) Graphics (Supports OpenGL 4.6.0 Core Profile Context 25.8.1.250617)
+[13Dec2025 07:14:08.626] [Render thread/INFO] [Iris/]: OS: Windows 11 (10.0)
+[13Dec2025 07:14:11.740] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/sodium, mod/kiwi, mod/kuma_api, mod/fabric_renderer_api_v1, mod/geckolib, mod/fabric_model_loading_api_v1, mod/jei, mod/lithostitched, mod/trender, mod/mcwwindows, mod/sophisticatedcore, mod/waystones, mod/mcwholidays, mod/fabric_renderer_indigo, mod/controlling, mod/neoforge, mod/fabric_block_view_api_v2, mod/plasmovoice, mod/iris, mod/sophisticatedbackpacks, mod/snuffles, mod/rare_ice, mod/midnightlib, mod/mcwdoors, mod/iceandfire, mod/balm, mod/snowrealmagic, mod/herbsandharvest, mod/carryon, mod/melody, mod/baguettelib, mod/cloth_config, mod/ctov, mod/integration, mod/konkrete, mod/mcwpaths, mod/seasonsgreetings, mod/a_man_with_plushies, mod/toastysmobs, mod/mobstein, mod/christmasmusicdiscs, mod/mcwbridges, mod/farmersdelight, mod/entity_model_features, mod/entity_texture_features, mod/fabric_game_rule_api_v1, mod/moonlight, mod/fabric_api_base, mod/mousetweaks, mod/gml, mod/jade, mod/snowyspirit, mod/jupiter, mod/fatchicken, mod/holdmyitemsnf, mod/mcwtrpdoors, mod/mcwfences, mod/miku_plushie, mod/shoppy, mod/reeses_sodium_options, mod/notenoughanimations, mod/curios, mod/patchouli, mod/mynethersdelight, mod/commongroovylibrary, mod/camera, mod/securitycraft, mod/searchables, mod/framedblocks, mod/entityculling, mod/worldedit, mod/eatinganimation, mod/mcwroofs, mod/appleskin, mod/architectury, mod/uranus, mod/plushies, mod/ferritecore, mod/mcwfurnitures, mod/transition, mod/fabric_rendering_data_attachment_v1, mod/winterly, mod/immersive_melodies, mod/merrymaking, mod/inv_view_neoforge, mod/mcwlights, moonlight:merged_pack, builtin/add_pack_finders_test, eatinganimations_compat, eating_animations_compat_farmersdelight
+[13Dec2025 07:14:11.785] [Worker-Main-1/INFO] [Moonlight/]: Resource cache state for CLIENT_RESOURCES: needs regeneration
+[13Dec2025 07:14:11.787] [Worker-Main-1/INFO] [Moonlight/]: Cleared cache pack resources at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\dynamic-resource-pack-cache\snowyspirit-generated_pack in 737.7 μs
+[13Dec2025 07:14:11.789] [Worker-Main-1/INFO] [Moonlight/]: Starting runtime resource generation for pack type CLIENT_RESOURCES with generators [moonlight:dynamic_resources, snowyspirit:generated_pack]
+[13Dec2025 07:14:11.798] [Worker-Main-1/INFO] [Moonlight/]: Regenerating Dynamic CLIENT_RESOURCES Resources Provider [moonlight:dynamic_resources], requested by strategy REGEN_ON_EVERY_RELOAD
+[13Dec2025 07:14:11.809] [Worker-Main-1/INFO] [Moonlight/]: Generated runtime CLIENT_RESOURCES for pack moonlight:dynamic_resources in 10.32 ms
+[13Dec2025 07:14:11.809] [Worker-Main-1/INFO] [Moonlight/]: Regenerating Dynamic CLIENT_RESOURCES Resources Provider [snowyspirit:generated_pack], requested by strategy CACHED
+[13Dec2025 07:14:11.891] [Render thread/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Client-side modules initialized and ready to use!
+[13Dec2025 07:14:12.024] [Worker-Main-1/INFO] [Moonlight/]: Generated runtime CLIENT_RESOURCES for pack snowyspirit:generated_pack in 215.4 ms
+[13Dec2025 07:14:12.032] [Worker-Main-1/INFO] [Moonlight/]: Populated search tree for pack at C:\Users\Dexs\migajas-launcher\minecraft\instances\navidad_2025\dynamic-resource-pack-cache\snowyspirit-generated_pack in 4.085 ms
+[13Dec2025 07:14:12.038] [Worker-Main-1/INFO] [Moonlight/]: Finished runtime resources generation for 2 packs in a total of 248.4 ms 
+[13Dec2025 07:14:12.778] [Worker-Main-4/INFO] [com.mamailes.herbsandharvest.HerbsAndHarvest/]: HELLO FROM COMMON SETUP
+[13Dec2025 07:14:12.778] [Worker-Main-4/INFO] [com.mamailes.herbsandharvest.HerbsAndHarvest/]: DIRT BLOCK >> minecraft:dirt
+[13Dec2025 07:14:12.778] [Worker-Main-4/INFO] [com.mamailes.herbsandharvest.HerbsAndHarvest/]: The magic number is... 42
+[13Dec2025 07:14:12.791] [Worker-Main-4/INFO] [com.mamailes.herbsandharvest.HerbsAndHarvest/]: ITEM >> minecraft:iron_ingot
+[13Dec2025 07:14:14.368] [Worker-Main-1/WARN] [GeckoLib/]: Unsupported geometry json version: 1.21.0 for model seasonsgreetings:geo/armor/christmas_hat.geo.json. Supported versions: 1.12.0. Remove any rotated face UVs and re-export the model to fix
+[13Dec2025 07:14:14.472] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[13Dec2025 07:14:14.614] [Worker-Main-3/INFO] [com.mamailes.merrymaking.MerryMaking/]: HELLO FROM COMMON SETUP
+[13Dec2025 07:14:14.626] [Worker-Main-1/WARN] [GeckoLib/]: Unsupported geometry json version for model mobstein:geo/igormesa.geo.json. Supported versions: 1.12.0
+[13Dec2025 07:14:15.730] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Invalid path in pack: snowyspirit:sounds/block/gingerbread_ unused1.ogg, ignoring
+[13Dec2025 07:14:15.732] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Invalid path in pack: snowyspirit:sounds/block/GBC_Block_Walk_1_B (2).ogg, ignoring
+[13Dec2025 07:14:15.732] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Invalid path in pack: snowyspirit:sounds/block/GBC_Block_Walk_1_B (1).ogg, ignoring
+[13Dec2025 07:14:15.733] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Invalid path in pack: snowyspirit:sounds/block/GBC_Block_Break_4 (1).ogg, ignoring
+[13Dec2025 07:14:15.877] [Worker-Main-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File snowyspirit:sounds/block/gingerbread_break_3.ogg does not exist, cannot add it to event snowyspirit:block.sack.place
+[13Dec2025 07:14:15.877] [Worker-Main-2/WARN] [net.minecraft.client.sounds.SoundManager/]: File snowyspirit:sounds/block/gingerbread_break_3.ogg does not exist, cannot add it to event snowyspirit:block.gingerbread.place
+[13Dec2025 07:14:16.867] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[13Dec2025 07:14:18.144] [Worker-Main-5/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.neoforge.NeoForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3710e182]
+[13Dec2025 07:14:18.171] [Worker-Main-5/INFO] [com.sk89q.worldedit.neoforge.NeoForgeWorldEdit/]: WorldEdit for NeoForge (version 7.3.8+6939-7d32b45) is loaded
+[13Dec2025 07:14:20.760] [Render thread/INFO] [Moonlight/]: Initialized color sets in 213ms
+[13Dec2025 07:14:22.779] [Worker-Main-4/INFO] [com.mamailes.herbsandharvest.HerbsAndHarvest/]: HELLO FROM CLIENT SETUP
+[13Dec2025 07:14:22.781] [Worker-Main-4/INFO] [com.mamailes.herbsandharvest.HerbsAndHarvest/]: MINECRAFT NAME >> ElDexs
+[13Dec2025 07:14:23.136] [Worker-Main-4/INFO] [com.mamailes.merrymaking.MerryMaking/]: HELLO FROM CLIENT SETUP
+[13Dec2025 07:14:23.136] [Worker-Main-4/INFO] [com.mamailes.merrymaking.MerryMaking/]: MINECRAFT NAME >> ElDexs
+[13Dec2025 07:14:23.378] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture iceandfire:item/dragonsteel_lightning_sword with size 36x36 limits mip level from 4 to 2
+[13Dec2025 07:14:23.391] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture securitycraft:entity/frame/noise_background with size 14x14 limits mip level from 2 to 1
+[13Dec2025 07:14:23.394] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture mobstein:block/captura_de_pantalla_2025-05-31_001423 with size 335x331 limits mip level from 1 to 0
+[13Dec2025 07:14:24.031] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[13Dec2025 07:14:24.617] [Worker-Main-4/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model toastysmobs:models/custom/crabtool.json
+com.google.gson.JsonParseException: Invalid rotation 27.5 found, only -45/-22.5/0/22.5/45 allowed
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:115) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:104) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:84) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:76) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1329) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1300) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.1.jar%23142!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:409) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:338) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/neoforge@21.1.216/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:51) ~[neoforge-21.1.216-universal.jar%23260!/:?]
+	at TRANSFORMER/neoforge@21.1.216/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:37) ~[neoforge-21.1.216-universal.jar%23260!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23142!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:525) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:532) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:582) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:83) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:144) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:?]
+[13Dec2025 07:14:24.808] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.4.2 Target: null
+[13Dec2025 07:14:24.809] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwholidays] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/holidays.json
+[13Dec2025 07:14:24.853] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwholidays] Found status: UP_TO_DATE Current: 1.1.2 Target: null
+[13Dec2025 07:14:24.853] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.21.1&ml=neoforge
+[13Dec2025 07:14:25.029] [Worker-Main-2/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model a_man_with_plushies:models/custom/the_lamb_plushie.json
+com.google.gson.JsonParseException: Invalid rotation -1.92545 found, only -45/-22.5/0/22.5/45 allowed
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:115) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:104) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:84) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:76) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1329) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1300) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.1.jar%23142!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:409) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:338) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/neoforge@21.1.216/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:51) ~[neoforge-21.1.216-universal.jar%23260!/:?]
+	at TRANSFORMER/neoforge@21.1.216/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:37) ~[neoforge-21.1.216-universal.jar%23260!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23142!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:525) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:532) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:582) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:83) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:144) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:?]
+[13Dec2025 07:14:25.038] [Worker-Main-4/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model a_man_with_plushies:models/custom/the_lamb_plushie_sitting.json
+com.google.gson.JsonParseException: Invalid rotation -1.92545 found, only -45/-22.5/0/22.5/45 allowed
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:115) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:104) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:84) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:76) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1329) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1300) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.1.jar%23142!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:409) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:338) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/neoforge@21.1.216/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:51) ~[neoforge-21.1.216-universal.jar%23260!/:?]
+	at TRANSFORMER/neoforge@21.1.216/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:37) ~[neoforge-21.1.216-universal.jar%23260!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23142!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:525) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:532) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:582) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:83) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:144) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:?]
+[13Dec2025 07:14:25.096] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model mobstein:models/custom/withermask2.json
+com.google.gson.JsonParseException: Invalid rotation 16.0 found, only -45/-22.5/0/22.5/45 allowed
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:115) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:104) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:84) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:76) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1329) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1300) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.1.jar%23142!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:409) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:338) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/neoforge@21.1.216/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:51) ~[neoforge-21.1.216-universal.jar%23260!/:?]
+	at TRANSFORMER/neoforge@21.1.216/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:37) ~[neoforge-21.1.216-universal.jar%23260!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23142!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:525) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:532) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:582) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:83) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:144) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:?]
+[13Dec2025 07:14:25.111] [Worker-Main-1/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model mobstein:models/custom/zomhor3item.json
+com.google.gson.JsonParseException: Invalid rotation 42.5 found, only -45/-22.5/0/22.5/45 allowed
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getAngle(BlockElement.java:115) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.getRotation(BlockElement.java:104) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:84) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockElement$Deserializer.deserialize(BlockElement.java:76) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1329) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1300) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.1.jar%23142!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.getElements(BlockModel.java:409) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:338) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/neoforge@21.1.216/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:51) ~[neoforge-21.1.216-universal.jar%23260!/:?]
+	at TRANSFORMER/neoforge@21.1.216/net.neoforged.neoforge.client.model.ExtendedBlockModelDeserializer.deserialize(ExtendedBlockModelDeserializer.java:37) ~[neoforge-21.1.216-universal.jar%23260!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.1.jar%23142!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:525) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:532) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:582) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:83) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:144) ~[client-1.21.1-20240808.144430-srg.jar%23259!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:?]
+[13Dec2025 07:14:25.554] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [controlling] Found status: BETA Current: 19.0.5 Target: 19.0.5
+[13Dec2025 07:14:25.555] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/doors.json
+[13Dec2025 07:14:25.864] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwdoors] Found status: UP_TO_DATE Current: 1.1.2 Target: null
+[13Dec2025 07:14:25.866] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [ctov] Starting version check at https://api.modrinth.com/updates/fgmhI8kH/forge_updates.json
+[13Dec2025 07:14:26.986] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [ctov] Found status: BETA Current: 3.6.0 Target: null
+[13Dec2025 07:14:26.987] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwpaths] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/paths.json
+[13Dec2025 07:14:27.277] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwpaths] Found status: UP_TO_DATE Current: 1.1.1 Target: null
+[13Dec2025 07:14:27.278] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[13Dec2025 07:14:27.444] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwbridges] Found status: UP_TO_DATE Current: 3.1.1 Target: null
+[13Dec2025 07:14:27.445] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [moonlight] Starting version check at https://api.modrinth.com/updates/moonlight/neoforge_updates.json
+[13Dec2025 07:14:27.576] [NeoForge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "promos" is null
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:173) ~[loader-4.0.42.jar%23107!/:4.0]
+	at java.base/java.lang.Iterable.forEach(Unknown Source) [?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.42.jar%23107!/:4.0]
+[13Dec2025 07:14:27.577] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwtrpdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/trapdoors.json
+[13Dec2025 07:14:27.604] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwtrpdoors] Found status: UP_TO_DATE Current: 1.1.5 Target: null
+[13Dec2025 07:14:27.606] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwfences] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/fences.json
+[13Dec2025 07:14:27.641] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwfences] Found status: UP_TO_DATE Current: 1.2.1 Target: null
+[13Dec2025 07:14:27.641] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [camera] Starting version check at https://update.maxhenkel.de/neoforge/camera
+[13Dec2025 07:14:28.520] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [camera] Found status: BETA Current: 1.21.1-1.0.21 Target: 1.21.1-1.0.21
+[13Dec2025 07:14:28.525] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[13Dec2025 07:14:29.264] [NeoForge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1238) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1137) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1047) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:982) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:167) ~[loader-4.0.42.jar%23107!/:4.0]
+	at java.base/java.lang.Iterable.forEach(Unknown Source) [?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.42.jar%23107!/:4.0]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.1.jar%23142!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar%23142!/:?]
+	... 6 more
+[13Dec2025 07:14:29.266] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.21.1&ml=neoforge
+[13Dec2025 07:14:29.444] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [searchables] Found status: BETA Current: 1.0.2 Target: 1.0.2
+[13Dec2025 07:14:29.444] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwroofs] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/roofs.json
+[13Dec2025 07:14:29.473] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwroofs] Found status: UP_TO_DATE Current: 2.3.2 Target: null
+[13Dec2025 07:14:29.474] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[13Dec2025 07:14:29.503] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.4.1 Target: null
+[13Dec2025 07:14:29.504] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwlights] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/lights.json
+[13Dec2025 07:14:29.545] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mcwlights] Found status: UP_TO_DATE Current: 1.1.5 Target: null
+[13Dec2025 07:15:01.214] [Worker-Main-4/INFO] [com.iafenvoy.uranus.Uranus/]: Successfully load 192 tabula models
+[13Dec2025 07:15:24.940] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:dr_mobstenio_skeleton_stage_2#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/dropa
+[13Dec2025 07:15:24.940] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model merrymaking:aged_pine_mantel#lit=false,facing=south,type=garland,stocking=true,section=1,corner=true:
+    minecraft:textures/atlas/blocks.png:happyhallows:block/bat
+    minecraft:textures/atlas/blocks.png:happyhallows:block/cobweb_half
+    minecraft:textures/atlas/blocks.png:happyhallows:block/cobweb_string
+    minecraft:textures/atlas/blocks.png:happyhallows:block/pumpkin_head
+    minecraft:textures/atlas/blocks.png:happyhallows:block/skele_head
+    minecraft:textures/atlas/blocks.png:happyhallows:block/stripped_aged_pine_log
+[13Dec2025 07:15:24.940] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:grandfather_oldclock#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/clocktexture
+[13Dec2025 07:15:24.940] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:rabbit_full_body#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/zomra
+[13Dec2025 07:15:24.940] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:warden_full_body#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/wardenresu
+[13Dec2025 07:15:24.940] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:warden_bed#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/camawarden
+[13Dec2025 07:15:24.941] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:dr_witherstein_skeleton#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/witherstein
+[13Dec2025 07:15:24.942] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:villager_bed#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/camaaldeano
+[13Dec2025 07:15:24.942] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:silver_fish_full_body#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/silverresucited
+[13Dec2025 07:15:24.943] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model merrymaking:exposed_pine_mantel#lit=false,facing=north,type=empty,stocking=true,section=3,corner=true:
+    minecraft:textures/atlas/blocks.png:happyhallows:block/stripped_exposed_pine_log
+[13Dec2025 07:15:24.943] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:dolphin_bed#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/dolphincama
+[13Dec2025 07:15:24.943] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:batbed#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/batcama2
+[13Dec2025 07:15:24.944] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:dr_mobstenio_skeleton#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/skeleton
+[13Dec2025 07:15:24.944] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:bat_full_body#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/bat
+[13Dec2025 07:15:24.944] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:zom_hor_support#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/zomsupport
+[13Dec2025 07:15:24.944] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:ocelot_support#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:block/supportocelot
+[13Dec2025 07:15:24.944] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:rabbit_bed#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/rabbitcama
+[13Dec2025 07:15:24.944] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:axolotl_support#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:block/supportoaxo
+[13Dec2025 07:15:24.944] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:dolphin_support#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:block/supportdelfin
+[13Dec2025 07:15:24.944] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:villager_support#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/villagersupport
+[13Dec2025 07:15:24.944] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:putrid_horse_full_body#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/zomhortexture2
+[13Dec2025 07:15:24.944] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:spider_leg#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/spider
+[13Dec2025 07:15:24.944] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:clinical_stretch#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/cama
+[13Dec2025 07:15:24.944] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:frankenstein_support#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:block/supportofranki
+[13Dec2025 07:15:24.945] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model seasonsgreetings:white_gift_box#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:block/black_bow_top
+[13Dec2025 07:15:24.945] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:villager_full_body#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/villagerzom
+[13Dec2025 07:15:24.945] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:dolphin_full_body#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/dolphinbody
+[13Dec2025 07:15:24.945] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:full_body_support#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/support
+[13Dec2025 07:15:24.945] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:ocelot_full_body#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/violeta
+[13Dec2025 07:15:24.945] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:floorcandle#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/candelabro
+[13Dec2025 07:15:24.945] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model herbsandharvest:grape_vines_plant_block#berries=false:
+    minecraft:textures/atlas/blocks.png:herbsandharvest:block/grape/grape_vines_plant_empty
+[13Dec2025 07:15:24.945] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:ajolote_bed#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/camaocelote
+[13Dec2025 07:15:24.945] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model herbsandharvest:grape_vines_plant_block#berries=true:
+    minecraft:textures/atlas/blocks.png:herbsandharvest:block/grape/grape_vines_plant_full
+[13Dec2025 07:15:24.945] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:ocelot_bed#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/camaocelote
+[13Dec2025 07:15:24.945] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:witherstein_trophie#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/withersteinmask
+[13Dec2025 07:15:24.946] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:frankestein_bed#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/frankiblocky
+[13Dec2025 07:15:24.946] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model herbsandharvest:grape_vines_block#age=24,berries=true:
+    minecraft:textures/atlas/blocks.png:herbsandharvest:block/grape/grape_vines_full
+[13Dec2025 07:15:24.946] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model merrymaking:pine_mantel#lit=false,facing=east,type=garland_bat,stocking=true,section=1,corner=false:
+    minecraft:textures/atlas/blocks.png:happyhallows:block/stripped_pine_log
+[13Dec2025 07:15:24.946] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:bat_support#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:block/supportbat
+[13Dec2025 07:15:24.946] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:rabbit_support#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:block/supportrabbit
+[13Dec2025 07:15:24.946] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:silver_bed#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/camasilverfish
+[13Dec2025 07:15:24.946] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:witch_head#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/bruja
+[13Dec2025 07:15:24.946] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model herbsandharvest:grape_vines_block#age=14,berries=false:
+    minecraft:textures/atlas/blocks.png:herbsandharvest:block/grape/grape_vines_empty
+[13Dec2025 07:15:24.946] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:horse_bed#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/zomcama
+[13Dec2025 07:15:24.946] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:frankenstein_full_body#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/franki
+[13Dec2025 07:15:24.946] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:spider_cave_leg#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/spider
+[13Dec2025 07:15:24.947] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:cirugy_stretch#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/bed
+[13Dec2025 07:15:24.947] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:warden_support#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/wardensupport
+[13Dec2025 07:15:24.947] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:chandeliers#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/floorcantexture
+[13Dec2025 07:15:24.947] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model merrymaking:weathered_pine_mantel#lit=true,facing=east,type=garland_pumpkin,stocking=false,section=1,corner=false:
+    minecraft:textures/atlas/blocks.png:happyhallows:block/stripped_weathered_pine_log
+[13Dec2025 07:15:24.947] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:axolotl_full_body#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:item/bodiajo
+[13Dec2025 07:15:24.947] [Worker-Main-4/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model mobstein:silver_fish_support#inventory:
+    minecraft:textures/atlas/blocks.png:minecraft:block/supportsilverfish
+[13Dec2025 07:15:27.054] [Worker-Main-1/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.kiwi.customization.compat.jade.JadeCompat
+[13Dec2025 07:15:27.181] [Worker-Main-1/INFO] [snownee.jade.Jade/]: Start loading plugin from net.blay09.mods.waystones.compat.JadeIntegration
+[13Dec2025 07:15:27.201] [Worker-Main-1/INFO] [snownee.jade.Jade/]: Start loading plugin from com.iafenvoy.iceandfire.compat.jade.IceAndFireJadePlugin
+[13Dec2025 07:15:27.222] [Worker-Main-1/INFO] [snownee.jade.Jade/]: Start loading plugin from net.blay09.mods.balm.neoforge.compat.hudinfo.NeoForgeJadeModCompat
+[13Dec2025 07:15:27.231] [Worker-Main-1/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.snow.compat.jade.JadeCompat
+[13Dec2025 07:15:27.240] [Worker-Main-1/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.vanilla.VanillaPlugin
+[13Dec2025 07:15:27.378] [Worker-Main-1/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.universal.UniversalPlugin
+[13Dec2025 07:15:27.398] [Worker-Main-1/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.debug.DebugPlugin
+[13Dec2025 07:15:27.434] [Worker-Main-1/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.core.CorePlugin
+[13Dec2025 07:15:27.460] [Worker-Main-1/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.access.AccessibilityPlugin
+[13Dec2025 07:15:27.477] [Worker-Main-1/INFO] [snownee.jade.Jade/]: Start loading plugin from de.maxhenkel.camera.integration.waila.PluginCamera
+[13Dec2025 07:15:27.483] [Worker-Main-1/INFO] [snownee.jade.Jade/]: Start loading plugin from net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[13Dec2025 07:15:27.497] [Worker-Main-1/INFO] [snownee.jade.Jade/]: Start loading plugin from xfacthd.framedblocks.common.compat.jade.FramedJadePlugin
+[13Dec2025 07:15:28.522] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[13Dec2025 07:15:28.522] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[13Dec2025 07:15:28.523] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: seasonsgreetings:block.eggnog_cauldron.bubble
+[13Dec2025 07:15:28.523] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: seasonsgreetings:entity.gingerbread_man.idle
+[13Dec2025 07:15:28.523] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: seasonsgreetings:entity.gingerbread_man.death
+[13Dec2025 07:15:28.886] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[13Dec2025 07:15:28.889] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[13Dec2025 07:15:29.104] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[13Dec2025 07:15:29.297] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
+[13Dec2025 07:15:29.298] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[13Dec2025 07:15:29.302] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[13Dec2025 07:15:29.312] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[13Dec2025 07:15:29.324] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/chest.png-atlas
+[13Dec2025 07:15:29.327] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[13Dec2025 07:15:29.329] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[13Dec2025 07:15:29.331] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[13Dec2025 07:15:30.602] [Render thread/WARN] [EMF/]: [EMF]: No textureSize provided for: cod.jem. Defaulting to 64x32 texture size for model.
+[13Dec2025 07:15:30.690] [Render thread/WARN] [EMF/]: [EMF]: No textureSize provided for: salmon.jem. Defaulting to 64x32 texture size for model.
+[13Dec2025 07:15:31.617] [Render thread/WARN] [EMF/]: [EMF]: No textureSize provided for: tadpole.jem. Defaulting to 64x32 texture size for model.
+[13Dec2025 07:15:31.658] [Render thread/WARN] [EMF/]: [EMF]: No textureSize provided for: tropical_fish_a.jem. Defaulting to 64x32 texture size for model.
+[13Dec2025 07:15:31.666] [Render thread/WARN] [EMF/]: [EMF]: No textureSize provided for: tropical_fish_b.jem. Defaulting to 64x32 texture size for model.
+[13Dec2025 07:15:31.672] [Render thread/WARN] [EMF/]: [EMF]: No textureSize provided for: tropical_fish_pattern_a.jem. Defaulting to 64x32 texture size for model.
+[13Dec2025 07:15:31.677] [Render thread/WARN] [EMF/]: [EMF]: No textureSize provided for: tropical_fish_pattern_b.jem. Defaulting to 64x32 texture size for model.
+[13Dec2025 07:15:31.768] [Render thread/WARN] [EMF/]: [EMF]: No textureSize provided for: axolotl.jem. Defaulting to 64x32 texture size for model.
+[13Dec2025 07:15:32.982] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[13Dec2025 07:15:32.988] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x0 minecraft:textures/atlas/paintings.png-atlas
+[13Dec2025 07:15:32.992] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[13Dec2025 07:15:32.994] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/map_decorations.png-atlas
+[13Dec2025 07:15:32.997] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[13Dec2025 07:15:33.525] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[13Dec2025 07:15:33.929] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[13Dec2025 07:15:33.940] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[13Dec2025 07:15:34.024] [Render thread/WARN] [com.iafenvoy.jupiter.Jupiter/]: Notice: Jupiter cannot resolve empty List<Enum> since technical issue in Java, it is recommended to add a value in default value list.
+[13Dec2025 07:15:34.037] [Render thread/WARN] [com.iafenvoy.jupiter.Jupiter/]: Notice: Jupiter cannot resolve empty List<Enum> since technical issue in Java, it is recommended to add a value in default value list.
+[13Dec2025 07:15:34.042] [Render thread/WARN] [com.iafenvoy.jupiter.Jupiter/]: Notice: Jupiter cannot resolve empty List<Enum> since technical issue in Java, it is recommended to add a value in default value list.
+[13Dec2025 07:15:34.042] [Render thread/WARN] [com.iafenvoy.jupiter.Jupiter/]: Cannot find suitable entry for key=solidFrameMode, type=xfacthd.framedblocks.client.model.SolidFrameMode$2 in config=framedblocks:CLIENT
+[13Dec2025 07:15:34.043] [Render thread/WARN] [com.iafenvoy.jupiter.Jupiter/]: Notice: Jupiter cannot resolve empty List<Enum> since technical issue in Java, it is recommended to add a value in default value list.
+[13Dec2025 07:15:34.044] [Render thread/INFO] [com.iafenvoy.jupiter.Jupiter/]: Config spec loading complete, found 25 configs from 18 mods.
+[13Dec2025 07:15:34.054] [Render thread/INFO] [com.iafenvoy.jupiter.Jupiter/]: Successfully reload 28 common config(s).
+[13Dec2025 07:15:34.056] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader preloaded 50 jsons
+[13Dec2025 07:15:34.092] [Render thread/INFO] [Entity Texture Features/]: [ETF]: reloading ETF data.
+[13Dec2025 07:15:34.111] [Render thread/INFO] [Entity Texture Features/]: [ETF]: emissive suffixes loaded: {_e}
+[13Dec2025 07:15:34.124] [Render thread/INFO] [Entity Texture Features/]: [ETF]: emissive suffixes loaded: {_e}
+[13Dec2025 07:15:34.154] [Render thread/INFO] [snownee.kiwi.Kiwi/]: Canceling Microsoft telemetry
+[13Dec2025 07:15:40.268] [Thread-11/INFO] [immersive_melodies.Common/]: MIDI Device: Real Time Sequencer - Software sequencer
+[13Dec2025 07:15:40.496] [Render thread/INFO] [Iris/]: Creating pipeline for dimension minecraft:overworld
+[13Dec2025 07:15:47.630] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[13Dec2025 07:15:47.688] [Render thread/INFO] [Entity Texture Features/]: [ETF]: emissive suffixes loaded: {_e}

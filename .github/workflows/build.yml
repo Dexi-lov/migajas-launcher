@@ -1,0 +1,40 @@
+name: Compilar Launcher
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    
+    strategy:
+      matrix:
+        os: [windows-latest, macos-latest]
+
+    steps:
+    - name: Clonar repositorio
+      uses: actions/checkout@v4
+
+    - name: Instalar Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+        cache: 'npm'
+
+    - name: Instalar dependencias
+      run: npm install
+
+    - name: Compilar (Windows/Mac)
+      # Electron-builder detecta automáticamente el SO.
+      # Si está en mac, crea dmg. Si está en windows, crea exe.
+      run: npm run build
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Subir resultados (Artifacts)
+      uses: actions/upload-artifact@v4
+      with:
+        name: Launcher-${{ matrix.os }}
+        path: dist/git

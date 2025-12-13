@@ -1,0 +1,1 @@
+{"jarName":"plasmovoice-forge-1.20.1-2.1.6.jar","modId":"plasmovoice","version":"2.1.6","mixinConfigs":["plasmovoice-forge.mixins.json","plasmovoice-1.21.9-fabric.mixins.json","plasmovoice.mixins.json","plasmovoice-1.21.9.mixins.json","slib-forge.mixins.json","plasmovoice-1.21.6-rendertype.mixins.json","slib.mixins.json"],"jarJarMods":[]}
