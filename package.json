@@ -13,14 +13,15 @@
   "build": {
     "appId": "com.migajas.launcher",
     "productName": "Migajas Launcher",
+    "icon": "icon.png",
     "win": {
       "target": "nsis",
-      "icon": "icon.ico",
+      "icon": "icon.png",
       "requestedExecutionLevel": "asInvoker"
     },
     "mac": {
       "target": "dmg",
-      "icon": "icon.ico",
+      "icon": "icon.png",
       "category": "public.app-category.games"
     },
     "nsis": {
@@ -40,8 +41,8 @@
     "asar": true,
     "extraResources": [
       {
-        "from": "icon.ico",
-        "to": "icon.ico"
+        "from": "icon.png",
+        "to": "icon.png"
       }
     ]
   },
