@@ -1,0 +1,52 @@
+# Publica una nueva versión del launcher cuando subes una etiqueta "vX.Y.Z".
+# Genera instalador + latest.yml (+ latest-mac.yml) y los sube a una release PÚBLICA de GitHub.
+# El auto-updater del launcher lee justamente esos archivos.
+name: Publicar launcher
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    strategy:
+      fail-fast: false            # si falla macOS, Windows se publica igualmente
+      matrix:
+        os: [windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Si la etiqueta (v1.2.0) no coincide con "version" de package.json, electron-builder crearía
+      # una release distinta y el updater no vería nada. Se corta aquí con un mensaje claro.
+      - name: Comprobar que etiqueta y package.json coinciden
+        shell: bash
+        run: |
+          PKG=$(node -p "require('./package.json').version")
+          TAG="${GITHUB_REF_NAME#v}"
+          if [ "$PKG" != "$TAG" ]; then
+            echo "::error::La etiqueta es $GITHUB_REF_NAME pero package.json dice $PKG. Usa 'npm version' o corrige la etiqueta."
+            exit 1
+          fi
+
+      - run: npm install
+
+      - name: Compilar y publicar (Windows)
+        if: matrix.os == 'windows-latest'
+        run: npx electron-builder --win --publish always
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Compilar y publicar (macOS, sin firmar)
+        if: matrix.os == 'macos-latest'
+        run: npx electron-builder --mac --publish always
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CSC_IDENTITY_AUTO_DISCOVERY: false
