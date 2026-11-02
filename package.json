@@ -22,7 +22,10 @@
     "test:ui": "node scripts/prepare-tauri-frontend.js && node scripts/test-launcher-ui.cjs",
     "test:session": "node scripts/test-social-session.cjs",
     "test:qr": "node scripts/test-mfa-qr.cjs",
-    "test:packs": "node scripts/test-pack-inspector.cjs"
+    "test:packs": "node scripts/test-pack-inspector.cjs",
+    "migi:configurar": "node scripts/configurar-migi.cjs",
+    "migi:deploy": "wrangler deploy --config cloudflare/migi/wrangler.json",
+    "test:migi": "node scripts/test-migi.cjs"
   },
   "build": {
     "appId": "com.migajas.launcher",

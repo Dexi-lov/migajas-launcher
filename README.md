@@ -25,4 +25,5 @@ La primera publicación necesita el secreto `TAURI_SIGNING_PRIVATE_KEY` en GitHu
 - [Guía del proyecto y colaboración](docs/GUIA_COLABORADOR.md): estructura, configuración de desarrollo, flujo de trabajo y publicación en lenguaje sencillo.
 - [Actualizaciones automáticas](docs/ACTUALIZACIONES.md): firma, instalación, releases, clave y diagnóstico.
 - [Publicar desde el launcher](docs/PUBLICAR-DESDE-EL-LAUNCHER.md): rol Programador, subida del instalador firmado, limpieza de la versión anterior y novedades de Migui.
+- [Migi en Discord](docs/MIGI-DISCORD.md): conectar el bot y usar sus comandos de bienvenida, ayuda y novedades.
 - [Administración de modpacks](docs/ADMINISTRAR-MODPACK.md): publicación y control de eventos/modpacks.

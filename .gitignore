@@ -18,3 +18,4 @@ frontend/
 *.key.pub
 *.pem
 *.pfx
+updater-password.txt

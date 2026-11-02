@@ -12,7 +12,7 @@ Guarda y sincroniza los cambios del proyecto. Desde la raíz puedes publicar una
 npm run publicar -- --notas "Ahora es más fácil organizar los eventos y se han arreglado problemas al entrar a jugar."
 ```
 
-El comando comprueba el proyecto, aumenta la versión, guarda esas novedades y activa la compilación de GitHub Actions. También puedes mantener las novedades por categorías en `release-notes.json`. El proceso de GitHub utiliza el secreto `TAURI_SIGNING_PRIVATE_KEY` que ya está configurado en el repositorio. La clave privada permanece allí.
+El comando comprueba el proyecto, aumenta la versión, guarda esas novedades y activa la compilación de GitHub Actions. También puedes mantener las novedades por categorías en `release-notes.json`. El proceso de GitHub utiliza los secretos de firma ya configurados en el repositorio. La copia privada de seguridad está fuera del proyecto; consulta [Dónde quedó la clave de firma](CLAVE-DE-FIRMA.md).
 
 Cuando termine la compilación, descarga de la release el instalador de Windows y su archivo de firma, por ejemplo:
 
@@ -40,7 +40,7 @@ Si el proveedor no permite limpiar en ese momento, el panel lo indica y se reint
 
 ## Cómo llegan a los jugadores
 
-Desde **1.2.14**, el launcher consulta el canal de actualizaciones de Cloudflare, que utiliza el paquete publicado desde este panel y mantiene compatibilidad con las releases de GitHub. La firma se verifica de nuevo al instalar. Las versiones anteriores que todavía usan únicamente GitHub deben recibir primero una versión 1.2.14 o posterior por ese canal, o instalar una de esas versiones manualmente.
+Desde **1.2.14**, el launcher consulta el canal de actualizaciones de Cloudflare, que utiliza el paquete publicado desde este panel y mantiene compatibilidad con las releases de GitHub. La firma se verifica de nuevo al instalar. Como se renovó la clave para este lanzamiento, quienes tengan las versiones de prueba anteriores deben instalar manualmente esta versión una vez. Después podrán recibir las siguientes actualizaciones normalmente.
 
 Al volver a entrar después de actualizar, Migui muestra las novedades una sola vez. **Ver después** cierra el aviso y **Novedades con Migui**, en el menú del perfil, permite recuperarlo. También puedes preguntarle «¿Qué trae la última actualización?» o «¿Qué se mejoró?». Las respuestas utilizan las notas escritas por el equipo, sin inventar cambios y sin enviar preguntas a una IA externa.
 

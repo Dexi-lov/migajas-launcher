@@ -1236,8 +1236,8 @@
         const topic = window.MigajasAssistant.answer(question);
         assistantTopic = topic;
         $('#assistant-response').textContent = topic.answer;
-        $('#assistant-go').hidden = !topic.step && topic.action !== 'release-notes';
-        $('#assistant-go').textContent = topic.action === 'release-notes' ? 'Cuéntame las novedades' : 'Llévame, Migui';
+        $('#assistant-go').hidden = !topic.step && !['release-notes','era-welcome'].includes(topic.action);
+        $('#assistant-go').textContent = ['release-notes','era-welcome'].includes(topic.action) ? 'Cuéntame las novedades' : 'Llévame, Migui';
         $('.migui-scroll').scrollTop = 0;
         scheduleTutorialPosition();
     }
@@ -1288,13 +1288,14 @@
             askLauncherAssistant(input.value);
         });
         $('#assistant-go').addEventListener('click', async () => {
-            if (tutorialBusy || !assistantTopic || (!assistantTopic.step && assistantTopic.action !== 'release-notes') || !state.tutorialStep) return;
+            if (tutorialBusy || !assistantTopic || (!assistantTopic.step && !['release-notes','era-welcome'].includes(assistantTopic.action)) || !state.tutorialStep) return;
             const topic = assistantTopic;
             tutorialBusy = true;
             $('#assistant-go').disabled = true;
             const previousStep = state.tutorialStep;
             try {
                 if (topic.action === 'release-notes') { await window.MigajasNews.open(); return; }
+                if (topic.action === 'era-welcome') { await window.MigajasNews.openWelcome(); return; }
                 if (topic.step === 'game-settings') {
                     if (!state.selectedInstance) {
                         $('#assistant-response').textContent = 'Primero elige un evento. Te muestro el catálogo; después vuelve a hacerme esta pregunta.';
@@ -1549,6 +1550,7 @@
         hideInstanceContextMenu();
         localStorage.setItem('migajasTutorialSeenV2', '1');
         if (completed) flashLaunchStatus('Recorrido completado. ¡Ya puedes explorar Migajas Launcher!', 'success');
+        document.dispatchEvent(new Event('migajas-tutorial-ended'));
     }
     function expandGistJsonEditor(expanded) {
         const modal = $('#settings-modal');

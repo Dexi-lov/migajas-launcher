@@ -2,6 +2,8 @@
 
 Este documento explica cómo comprueba, descarga, verifica y publica actualizaciones la versión Tauri 2 del launcher.
 
+**Transición del lanzamiento 1.2.14:** se renovó la clave de firma porque la privada anterior no estaba disponible. Quienes tengan los instaladores de prueba anteriores deben instalar esta versión manualmente una vez. Las siguientes actualizaciones utilizarán la clave nueva. Consulta [la ubicación y copia de seguridad de la clave](CLAVE-DE-FIRMA.md).
+
 Desde 1.2.14 también existe un panel exclusivo para **Programador** y ElDexs, con publicación de instaladores firmados y limpieza automática de la versión anterior. Consulta [Publicar desde el launcher](PUBLICAR-DESDE-EL-LAUNCHER.md). El canal de Cloudflare consulta las publicaciones del panel y mantiene compatibilidad con GitHub.
 
 ## Qué ocurre en el equipo del usuario

@@ -17,6 +17,17 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
       - name: Instalar dependencias
         run: npm ci
+      - name: Preparar la firma
+        run: node scripts/normalizar-firma-ci.cjs
+        env:
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+      - name: Comprobar la firma antes de compilar
+        run: node scripts/comprobar-firma.cjs
+        env:
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri -> target
       - name: Validar versión y preparar novedades
         id: release
         shell: pwsh
@@ -30,7 +41,6 @@ jobs:
         uses: tauri-apps/tauri-action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
         with:
           tagName: v${{ steps.release.outputs.version }}

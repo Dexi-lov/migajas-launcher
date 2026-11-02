@@ -22,6 +22,7 @@
     if (typeof module !== 'undefined' && module.exports) { module.exports = api; return; }
     let dataPromise, showing = false, returnFocus;
     const storageKey = 'migajasLastAnnouncedVersion';
+    const welcomeKey = 'migajasEraWelcomeV1';
     const node = (tag, text, className) => { const e = document.createElement(tag); if (text !== undefined) e.textContent = text; if (className) e.className = className; return e; };
     const version = () => root.MIGAJAS_SOCIAL_CONFIG?.clientVersion || '';
     function data() {
@@ -84,6 +85,7 @@
             } catch {}
         }
         if (published) entries = [published, ...entries.filter(entry => entry.version !== current)];
+        document.getElementById('migui-news-title').textContent = '¡Tenemos novedades!';
         const content = document.getElementById('migui-news-content'); content.replaceChildren();
         content.append(node('p', previous ? 'Estas son las novedades desde tu última visita.' : 'Te cuento qué trae esta versión del launcher.', 'migui-news-intro'));
         for (const entry of entries) {
@@ -101,9 +103,35 @@
         localStorage.setItem(storageKey, current);
         document.querySelector('#migui-news-modal footer button:last-child').focus({ preventScroll: true });
     };
+    api.openWelcome = async function () {
+        returnFocus = document.activeElement;
+        initialize();
+        const welcome = (await data()).eraWelcome;
+        if (!welcome) return api.open();
+        document.getElementById('migui-news-title').textContent = welcome.title;
+        const content = document.getElementById('migui-news-content'); content.replaceChildren();
+        content.append(node('p', welcome.summary, 'migui-news-intro'));
+        for (const item of welcome.sections) {
+            const section = node('section', undefined, 'migui-news-release');
+            section.append(node('h3', item.title));
+            const list = node('ul');
+            for (const text of item.items) list.append(node('li', text));
+            section.append(list); content.append(section);
+        }
+        content.append(node('p', welcome.closing));
+        closeDrawer(); openModal('migui-news-modal'); content.scrollTop = 0; showing = true;
+        localStorage.setItem(welcomeKey, '1'); localStorage.setItem(storageKey, version());
+        document.querySelector('#migui-news-modal footer button:last-child').focus({preventScroll:true});
+    };
     api.onLogin = async function () {
         const current = version(), previous = localStorage.getItem(storageKey);
-        if (!versionPattern.test(current) || previous === current || showing) return;
+        if (!versionPattern.test(current) || showing) return;
+        if (localStorage.getItem(welcomeKey) !== '1') {
+            if (typeof state !== 'undefined' && state.tutorialStep) return;
+            if (document.querySelector('.modal-overlay.open')) return;
+            await api.openWelcome(); return;
+        }
+        if (previous === current) return;
         if (!previous && localStorage.getItem('migajasTutorialSeenV2') !== '1') { localStorage.setItem(storageKey, current); return; }
         if (previous && compareVersions(current, previous) <= 0) return;
         if (typeof state !== 'undefined' && state.tutorialStep) return;
@@ -112,4 +140,5 @@
     };
     root.MigajasNews = api;
     document.addEventListener('DOMContentLoaded', initialize);
+    document.addEventListener('migajas-tutorial-ended', () => { if(localStorage.getItem(welcomeKey)!=='1') api.onLogin().catch(console.warn); });
 })(typeof window !== 'undefined' ? window : globalThis);
