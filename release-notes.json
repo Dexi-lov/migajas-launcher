@@ -1,0 +1,60 @@
+{
+  "releases": [
+    {
+      "version": "1.2.14",
+      "summary": "¡Prrú! Soy Migi y te doy la bienvenida a la nueva era de Migajas Studio. Descubre eventos, juega con tus amigos y crea nuevos recuerdos con nosotros. ¡Vamos a buscar nuestras primeras migajas!",
+      "new": [
+        "Puedes eliminar eventos desde Administración cuando ya no los necesites.",
+        "Migui te cuenta las novedades después de actualizar el launcher.",
+        "Tu equipo puede publicar actualizaciones desde el launcher con el nuevo rol Programador."
+      ],
+      "improved": [
+        "Los eventos oficiales y los de pruebas tienen secciones separadas en Administración.",
+        "Puedes volver a leer las novedades desde tu perfil o preguntándoselo a Migui.",
+        "Se comprueba que cada actualización sea auténtica antes de publicarla.",
+        "Las versiones anteriores se limpian de la nube automáticamente para ahorrar espacio."
+      ],
+      "fixed": [
+        "Ya se pueden crear correctamente las cuentas de seguridad de nuevos administradores.",
+        "Los mensajes al asignar permisos explican mejor qué debes revisar."
+      ]
+    },
+    {
+      "version": "1.2.13",
+      "summary": "Perfiles más cercanos y un recorrido más cómodo por el launcher.",
+      "new": [
+        "Los comentarios muestran la cara de quien los escribió.",
+        "Puedes maximizar y restaurar la ventana desde la barra superior."
+      ],
+      "improved": [
+        "El tutorial se adapta mejor a ventanas pequeñas y mantiene sus botones a la vista."
+      ],
+      "fixed": []
+    },
+    {
+      "version": "1.2.12",
+      "summary": "Tus eventos tienen más personalidad y los juegos arrancan mejor.",
+      "new": [
+        "Puedes elegir el color de cada evento para las participaciones de los perfiles."
+      ],
+      "improved": [
+        "Las participaciones muestran únicamente el nombre del evento."
+      ],
+      "fixed": [
+        "Se corrigió un problema que impedía abrir algunos eventos con Forge."
+      ]
+    },
+    {
+      "version": "1.2.11",
+      "summary": "Descargas más discretas y mensajes de inicio más claros.",
+      "new": [],
+      "improved": [
+        "La descarga de MRPACK muestra el avance sin enseñar los nombres de sus mods.",
+        "El launcher indica mejor cuándo Minecraft está abriendo o se ha cerrado."
+      ],
+      "fixed": [
+        "Los ajustes del paquete se aplican desde el primer intento de arranque."
+      ]
+    }
+  ]
+}

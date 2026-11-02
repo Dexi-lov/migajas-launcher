@@ -1,0 +1,15 @@
+const assert=require('node:assert/strict');
+const news=require('../launcher-news.js');
+assert.equal(require('../launcher-assistant.js').answer('Migui, ¿qué se optimizó en la nueva versión?').action,'release-notes');
+const data=require('../release-notes.json');
+const {releaseBody}=require('./release-notes.cjs');
+assert(news.compareVersions('1.2.10','1.2.9')>0);
+assert.equal(news.selectReleases(data.releases,'1.2.12','1.2.14').map(r=>r.version).join(','),'1.2.14,1.2.13');
+assert.equal(news.selectReleases(data.releases,'1.2.14','1.2.14').length,0);
+assert.equal(news.selectReleases(data.releases,'','1.2.14').length,1);
+const text=news.releaseFromText('1.2.14','Más fácil de usar.\n\n### Mejoras\n- Ahora puedes [organizar eventos](https://example.invalid).\n- Se arregló el inicio.');
+assert.equal(text.summary,'Más fácil de usar.');assert.equal(text.changes.length,2);assert(!text.changes.join().includes('https:'));
+assert.match(releaseBody(data,'1.2.14'),/Programador/);
+assert.throws(()=>releaseBody(data,'9.9.9'));
+assert.equal(releaseBody({releases:[{version:'2.0.0',summary:'Un cambio escrito con --notas.'}]},'2.0.0'),'Un cambio escrito con --notas.');
+console.log('OK: novedades por versión, versiones saltadas, repetición evitada y notas públicas sin formato técnico.');

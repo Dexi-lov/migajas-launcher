@@ -1,1 +1,20 @@
 node_modules
+dist/
+src-tauri/target/
+repo_context.md
+.env.social
+frontend/social-config.js
+
+# Estado local y secretos de Cloudflare
+.wrangler/
+cloudflare/.wrangler/
+.dev.vars
+.dev.vars.*
+cloudflare/.dev.vars
+frontend/social-client.js
+src-tauri/*.log
+frontend/
+*.key
+*.key.pub
+*.pem
+*.pfx

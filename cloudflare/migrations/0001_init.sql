@@ -1,0 +1,17 @@
+PRAGMA foreign_keys=ON;
+CREATE TABLE IF NOT EXISTS migajas_profiles(uuid TEXT PRIMARY KEY CHECK(length(uuid)=32),username TEXT NOT NULL,is_verified INTEGER NOT NULL DEFAULT 0,bio TEXT NOT NULL DEFAULT '',comments_enabled INTEGER NOT NULL DEFAULT 1,activity_visible INTEGER NOT NULL DEFAULT 1,updated_at TEXT NOT NULL);
+CREATE INDEX IF NOT EXISTS profile_name ON migajas_profiles(lower(username));
+CREATE TABLE IF NOT EXISTS migajas_friendships(id INTEGER PRIMARY KEY AUTOINCREMENT,requester_uuid TEXT NOT NULL REFERENCES migajas_profiles(uuid),addressee_uuid TEXT NOT NULL REFERENCES migajas_profiles(uuid),status TEXT NOT NULL CHECK(status IN('pending','accepted')),created_at TEXT NOT NULL, CHECK(requester_uuid<>addressee_uuid));
+CREATE UNIQUE INDEX IF NOT EXISTS friendship_pair ON migajas_friendships(min(requester_uuid,addressee_uuid),max(requester_uuid,addressee_uuid));
+CREATE TABLE IF NOT EXISTS migajas_presence(uuid TEXT PRIMARY KEY REFERENCES migajas_profiles(uuid),mode TEXT NOT NULL,instance_id TEXT,updated_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS migajas_roles(uuid TEXT NOT NULL REFERENCES migajas_profiles(uuid),role TEXT NOT NULL CHECK(role IN('owner','admin','organizer','moderator')),event_id TEXT NOT NULL DEFAULT '*',auth_user_id TEXT NOT NULL,granted_by TEXT,created_at TEXT NOT NULL,PRIMARY KEY(uuid,role,event_id));
+CREATE TABLE IF NOT EXISTS migajas_events(id TEXT PRIMARY KEY,manifest TEXT NOT NULL,official INTEGER NOT NULL DEFAULT 0,published INTEGER NOT NULL DEFAULT 0,archived INTEGER NOT NULL DEFAULT 0,revision INTEGER NOT NULL DEFAULT 0,updated_by TEXT NOT NULL,updated_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS migajas_attendance(uuid TEXT NOT NULL REFERENCES migajas_profiles(uuid),event_id TEXT NOT NULL REFERENCES migajas_events(id),event_name TEXT NOT NULL,confirmed_by TEXT NOT NULL,confirmed_at TEXT NOT NULL,PRIMARY KEY(uuid,event_id));
+CREATE TABLE IF NOT EXISTS migajas_comments(id TEXT PRIMARY KEY,profile_uuid TEXT NOT NULL REFERENCES migajas_profiles(uuid),author_uuid TEXT NOT NULL REFERENCES migajas_profiles(uuid),body TEXT NOT NULL CHECK(length(body) BETWEEN 1 AND 500),created_at TEXT NOT NULL);
+CREATE INDEX IF NOT EXISTS profile_comments ON migajas_comments(profile_uuid,created_at DESC);
+CREATE TABLE IF NOT EXISTS migajas_blocks(blocker_uuid TEXT NOT NULL REFERENCES migajas_profiles(uuid),blocked_uuid TEXT NOT NULL REFERENCES migajas_profiles(uuid),PRIMARY KEY(blocker_uuid,blocked_uuid),CHECK(blocker_uuid<>blocked_uuid));
+CREATE TABLE IF NOT EXISTS migajas_invites(id TEXT PRIMARY KEY,sender_uuid TEXT NOT NULL REFERENCES migajas_profiles(uuid),recipient_uuid TEXT NOT NULL REFERENCES migajas_profiles(uuid),event_id TEXT NOT NULL,created_at TEXT NOT NULL,expires_at TEXT NOT NULL,seen INTEGER NOT NULL DEFAULT 0);
+CREATE INDEX IF NOT EXISTS invite_inbox ON migajas_invites(recipient_uuid,expires_at);
+CREATE TABLE IF NOT EXISTS migajas_uploads(id TEXT PRIMARY KEY,event_id TEXT NOT NULL REFERENCES migajas_events(id),path TEXT NOT NULL UNIQUE,owner_uuid TEXT NOT NULL,byte_size INTEGER NOT NULL,sha256 TEXT NOT NULL,completed INTEGER NOT NULL DEFAULT 0,created_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS migajas_audit(id INTEGER PRIMARY KEY AUTOINCREMENT,actor_uuid TEXT NOT NULL,action TEXT NOT NULL,target TEXT NOT NULL,created_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS migajas_limits(key TEXT PRIMARY KEY,hits INTEGER NOT NULL,expires INTEGER NOT NULL);

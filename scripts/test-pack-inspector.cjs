@@ -1,0 +1,6 @@
+const {inspectPack}=require('../pack-inspector');const {zipSync,strToU8}=require('fflate');const assert=require('node:assert/strict');
+const index={formatVersion:1,game:'minecraft',name:'Prueba',versionId:'1',dependencies:{minecraft:'1.21.1','fabric-loader':'0.16.14'},files:[{path:'mods/test.jar',hashes:{sha1:'a'.repeat(40),sha512:'b'.repeat(128)},downloads:['https://cdn.modrinth.com/data/a/versions/b/test.jar'],fileSize:123}]};
+const result=inspectPack(zipSync({'modrinth.index.json':strToU8(JSON.stringify(index)),'overrides/config/test.json':strToU8('{}')}));assert.equal(result.format,'mrpack');assert.equal(result.mods,1);assert.equal(result.runtime.tipo_loader,'fabric');assert.equal(result.runtime.loader_version,'0.16.14');
+assert.equal(inspectPack(zipSync({'mods/test.jar':strToU8('test')})).format,'zip');
+for(const change of [{dependencies:{minecraft:'1.21.1','quilt-loader':'1'}},{files:[{...index.files[0],path:'../test.jar'}]},{files:[{...index.files[0],hashes:{}}]},{files:[{...index.files[0],downloads:['https://localhost/test.jar']}]}])assert.throws(()=>inspectPack(zipSync({'modrinth.index.json':strToU8(JSON.stringify({...index,...change}))})));
+console.log('OK: MRPACK sin JAR incrustados, detección de loader, ZIP existente y rechazo de entradas inseguras.');
