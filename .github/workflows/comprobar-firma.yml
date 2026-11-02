@@ -1,0 +1,27 @@
+name: Comprobar clave del actualizador
+on:
+  push:
+    branches: ['codex/signing-*']
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Preparar formato de firma
+        run: node scripts/normalizar-firma-ci.cjs
+        env:
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+      - name: Validar clave sin compilar el launcher
+        shell: pwsh
+        env:
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+        run: |
+          Set-Content -LiteralPath firma-prueba.txt -Value 'Prueba de firma de Migajas, sin publicación.'
+          npx tauri signer sign --app-version 1.2.14 firma-prueba.txt
