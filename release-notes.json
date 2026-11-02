@@ -1,0 +1,133 @@
+{
+  "releases": [
+    {
+      "version": "1.2.14",
+      "summary": "¡Prrú! Soy Migi y te doy la bienvenida a la nueva era de Migajas Studio. Descubre eventos, juega con tus amigos y crea nuevos recuerdos con nosotros. ¡Vamos a buscar nuestras primeras migajas!",
+      "new": [
+        "Puedes eliminar eventos desde Administración cuando ya no los necesites.",
+        "Migui te cuenta las novedades después de actualizar el launcher.",
+        "Tu equipo puede publicar actualizaciones desde el launcher con el nuevo rol Programador."
+      ],
+      "improved": [
+        "Los eventos oficiales y los de pruebas tienen secciones separadas en Administración.",
+        "Puedes volver a leer las novedades desde tu perfil o preguntándoselo a Migui.",
+        "Se comprueba que cada actualización sea auténtica antes de publicarla.",
+        "Las versiones anteriores se limpian de la nube automáticamente para ahorrar espacio."
+      ],
+      "fixed": [
+        "Ya se pueden crear correctamente las cuentas de seguridad de nuevos administradores.",
+        "Los mensajes al asignar permisos explican mejor qué debes revisar."
+      ]
+    },
+    {
+      "version": "1.2.13",
+      "summary": "Perfiles más cercanos y un recorrido más cómodo por el launcher.",
+      "new": [
+        "Los comentarios muestran la cara de quien los escribió.",
+        "Puedes maximizar y restaurar la ventana desde la barra superior."
+      ],
+      "improved": [
+        "El tutorial se adapta mejor a ventanas pequeñas y mantiene sus botones a la vista."
+      ],
+      "fixed": []
+    },
+    {
+      "version": "1.2.12",
+      "summary": "Tus eventos tienen más personalidad y los juegos arrancan mejor.",
+      "new": [
+        "Puedes elegir el color de cada evento para las participaciones de los perfiles."
+      ],
+      "improved": [
+        "Las participaciones muestran únicamente el nombre del evento."
+      ],
+      "fixed": [
+        "Se corrigió un problema que impedía abrir algunos eventos con Forge."
+      ]
+    },
+    {
+      "version": "1.2.11",
+      "summary": "Descargas más discretas y mensajes de inicio más claros.",
+      "new": [],
+      "improved": [
+        "La descarga de MRPACK muestra el avance sin enseñar los nombres de sus mods.",
+        "El launcher indica mejor cuándo Minecraft está abriendo o se ha cerrado."
+      ],
+      "fixed": [
+        "Los ajustes del paquete se aplican desde el primer intento de arranque."
+      ]
+    }
+  ],
+  "eraWelcome": {
+    "title": "¡Bienvenidos a la nueva era de Migajas!",
+    "summary": "¡Prrú! Soy Migi, tu palomita de Migajas Studio. Desde que renovamos el launcher hemos preparado muchas cosas para que disfrutes nuestros eventos con más comodidad. Si vienes de la versión anterior, te cuento todo lo que ahora puedes hacer.",
+    "sections": [
+      {
+        "title": "Un launcher que se siente tuyo",
+        "items": [
+          "Renovamos el diseño y puedes personalizar sus colores y su tema.",
+          "La barra lateral muestra las imágenes de tus eventos y puedes maximizar la ventana."
+        ]
+      },
+      {
+        "title": "Tu cuenta y tu personaje",
+        "items": [
+          "Puedes entrar con Microsoft o con tu nombre de jugador.",
+          "Cambia tu skin desde el launcher: tu cara también aparece en tu perfil, en Amigos y en los comentarios."
+        ]
+      },
+      {
+        "title": "Eventos nuevos y aventuras para volver a vivir",
+        "items": [
+          "Explora los eventos disponibles y el catálogo de eventos anteriores. Los archivados se pueden descargar mientras su modpack siga disponible.",
+          "Las instancias descargadas se conservan en la barra lateral; las de eventos anteriores tienen su propia separación. Puedes consultar quién participó en cada evento."
+        ]
+      },
+      {
+        "title": "Descargas y modpacks más cómodos",
+        "items": [
+          "Puedes jugar paquetes ZIP y MRPACK con los cargadores que utiliza cada evento, incluidos Fabric, Forge y NeoForge.",
+          "El launcher prepara Minecraft, el cargador y los mods. También puedes limitar la velocidad de descarga o dejarla sin límite.",
+          "Mejoramos la instalación y el inicio de las instancias, la conservación de los mods y los mensajes cuando algo falla."
+        ]
+      },
+      {
+        "title": "Prepara el juego a tu manera",
+        "items": [
+          "Ajusta la RAM y, con clic derecho en una instancia, cambia sus controles, sensibilidad, FOV, volumen, gráficos y paquetes de recursos.",
+          "También puedes configurar las teclas añadidas por mods y copiar ajustes entre instancias o utilizar una configuración global.",
+          "Desde ese mismo menú puedes eliminar una instancia con confirmación."
+        ]
+      },
+      {
+        "title": "Amigos, perfiles y recuerdos compartidos",
+        "items": [
+          "Añade amigos por su nombre y recibe avisos cuando llegue una solicitud.",
+          "Consulta quién está conectado, ausente o jugando y en qué evento está.",
+          "Visita perfiles, deja comentarios con la cara de tu personaje y muestra tus participaciones en eventos oficiales con sus colores."
+        ]
+      },
+      {
+        "title": "Tus capturas y una palomita para ayudarte",
+        "items": [
+          "La cámara abre tus capturas: puedes ampliarlas, recorrerlas y abrir su carpeta.",
+          "Mi tutorial es opcional y te guía por el launcher. Puedes hacerme preguntas sobre cómo usarlo y pedir ayuda al equipo desde Discord."
+        ]
+      },
+      {
+        "title": "Más herramientas para los organizadores",
+        "items": [
+          "El equipo puede subir modpacks y administrar eventos desde el launcher, separar los oficiales de las pruebas, archivar y eliminar eventos.",
+          "Las listas de acceso permiten decidir quién puede ver o jugar un evento. Los roles administrativos tienen su cuenta de seguridad y autenticador."
+        ]
+      },
+      {
+        "title": "Actualizar sin empezar de nuevo",
+        "items": [
+          "El launcher puede buscar e instalar nuevas versiones; ya no hace falta volver a descargarlo de Discord en cada actualización.",
+          "El equipo con permiso Programador puede publicar actualizaciones firmadas desde su panel. Yo te contaré las novedades al actualizar."
+        ]
+      }
+    ],
+    "closing": "No tienes que aprenderlo todo ahora. Explora a tu ritmo, prueba el tutorial y pregúntame lo que necesites del launcher. ¡Gracias por acompañarnos en esta nueva era; vamos a por nuestras migajas!"
+  }
+}

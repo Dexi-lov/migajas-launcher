@@ -1,7 +1,4 @@
-# Publica una nueva versión del launcher cuando subes una etiqueta "vX.Y.Z".
-# Genera instalador + latest.yml (+ latest-mac.yml) y los sube a una release PÚBLICA de GitHub.
-# El auto-updater del launcher lee justamente esos archivos.
-name: Publicar launcher
+name: Publicar launcher Tauri y actualizador
 
 on:
   push:
@@ -11,42 +8,59 @@ permissions:
   contents: write
 
 jobs:
-  release:
-    strategy:
-      fail-fast: false            # si falla macOS, Windows se publica igualmente
-      matrix:
-        os: [windows-latest, macos-latest]
-    runs-on: ${{ matrix.os }}
+  release-windows:
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
+          cache: npm
 
-      # Si la etiqueta (v1.2.0) no coincide con "version" de package.json, electron-builder crearía
-      # una release distinta y el updater no vería nada. Se corta aquí con un mensaje claro.
-      - name: Comprobar que etiqueta y package.json coinciden
-        shell: bash
+      - name: Validar tag y versiones del proyecto
+        shell: pwsh
         run: |
-          PKG=$(node -p "require('./package.json').version")
-          TAG="${GITHUB_REF_NAME#v}"
-          if [ "$PKG" != "$TAG" ]; then
-            echo "::error::La etiqueta es $GITHUB_REF_NAME pero package.json dice $PKG. Usa 'npm version' o corrige la etiqueta."
-            exit 1
-          fi
-
-      - run: npm install
-
-      - name: Compilar y publicar (Windows)
-        if: matrix.os == 'windows-latest'
-        run: npx electron-builder --win --publish always
+          $tagVersion = $env:GITHUB_REF_NAME.TrimStart('v')
+          $packageVersion = (Get-Content package.json -Raw | ConvertFrom-Json).version
+          $cargoVersion = (Select-String -Path src-tauri/Cargo.toml -Pattern '^version\s*=\s*"([^"]+)"').Matches.Groups[1].Value
+          $tauriVersion = (Get-Content src-tauri/tauri.conf.json -Raw | ConvertFrom-Json).version
+          if ($packageVersion -ne $tagVersion -or $cargoVersion -ne $tagVersion -or $tauriVersion -ne $tagVersion) {
+            throw "La etiqueta $tagVersion debe coincidir con package.json ($packageVersion), Cargo.toml ($cargoVersion) y tauri.conf.json ($tauriVersion)."
+          }
+          if ([string]::IsNullOrWhiteSpace($env:TAURI_SIGNING_PRIVATE_KEY)) {
+            throw 'Falta el secreto TAURI_SIGNING_PRIVATE_KEY en GitHub Actions. Consulta docs/ACTUALIZACIONES.md.'
+          }
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
 
-      - name: Compilar y publicar (macOS, sin firmar)
-        if: matrix.os == 'macos-latest'
-        run: npx electron-builder --mac --publish always
+      - name: Instalar dependencias del frontend
+        run: npm ci
+
+      - name: Preparar la firma
+        run: node scripts/normalizar-firma-ci.cjs
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CSC_IDENTITY_AUTO_DISCOVERY: false
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+
+      - name: Comprobar la firma antes de compilar
+        run: node scripts/comprobar-firma.cjs
+        env:
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+
+      - name: Preparar novedades para los jugadores
+        id: release_notes
+        run: node scripts/release-notes.cjs --github-output
+
+      - name: Compilar, firmar y publicar instalador Tauri + latest.json
+        uses: tauri-apps/tauri-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+        with:
+          tagName: ${{ github.ref_name }}
+          releaseName: 'Migajas Launcher ${{ github.ref_name }}'
+          releaseBody: ${{ steps.release_notes.outputs.body }}
+          releaseDraft: false
+          prerelease: false
+          uploadUpdaterJson: true
+          updaterJsonPreferNsis: true

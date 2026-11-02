@@ -753,7 +753,7 @@ function createWindow() {
     splash = new BrowserWindow({
         width: 300, height: 400, transparent: true,
         frame: false, alwaysOnTop: true, center: true,
-        icon: path.join(__dirname, 'icon.png'),
+        icon: path.join(__dirname, 'icon.PNG'),
         webPreferences: { contextIsolation: true, nodeIntegration: false, sandbox: true }
     });
     splash.loadFile('splash.html');
@@ -761,7 +761,7 @@ function createWindow() {
     win = new BrowserWindow({
         width: 1000, height: 650, title: "Migajas Launcher",
         frame: false, show: false, backgroundColor: '#0f0f0f',
-        icon: path.join(__dirname, 'icon.png'),
+        icon: path.join(__dirname, 'icon.PNG'),
         webPreferences: {
             // SEGURIDAD: antes esto era { nodeIntegration: true, contextIsolation: false },
             // lo que le daba a CUALQUIER script que corriera en index.html (incluido uno

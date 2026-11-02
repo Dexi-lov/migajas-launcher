@@ -1,0 +1,12 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "migi-discord",
+  "main": "index.ts",
+  "compatibility_date": "2026-10-30",
+  "workers_dev": true,
+  "vars": {
+    "DISCORD_APPLICATION_ID": "1566646982737530920",
+    "DISCORD_PUBLIC_KEY": "059be0629d05c81a3793ca81c7ac7a04e065dc2688c53959fc3e6e899c93d9da",
+    "DISCORD_GUILD_ID": "1430303874228555910"
+  }
+}

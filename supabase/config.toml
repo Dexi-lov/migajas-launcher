@@ -1,0 +1,7 @@
+project_id = "migajas-launcher"
+
+[functions.migajas-social]
+verify_jwt = false
+
+[functions.migajas-verify-minecraft]
+verify_jwt = false

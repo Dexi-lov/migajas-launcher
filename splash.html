@@ -2,28 +2,120 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            margin: 0; padding: 0; width: 100vw; height: 100vh;
-            background-color: #0f0f0f; display: flex; flex-direction: column;
-            justify-content: center; align-items: center; overflow: hidden;
-            font-family: sans-serif; border: 1px solid #333; box-sizing: border-box;
+        :root {
+            --accent: #FFA500;
+            --custom-blue: #2979FF;
+            --bg: #09090b;
+            --bg-image: radial-gradient(circle at top right, #18181b 0%, #000000 100%);
         }
-        .logo { width: 120px; filter: drop-shadow(0 0 20px rgba(255,255,255,0.2)); animation: pulse 2s infinite; }
-        .loader {
-            margin-top: 20px; width: 40px; height: 40px;
-            border: 4px solid #333; border-top: 4px solid #FFA500;
-            border-radius: 50%; animation: spin 1s linear infinite;
-        }
-        .text { margin-top: 15px; color: #666; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; }
         
-        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
+        body {
+            margin: 0; 
+            padding: 0; 
+            width: 100vw; 
+            height: 100vh;
+            background-color: var(--bg);
+            background-image: var(--bg-image);
+            display: flex; 
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center; 
+            overflow: hidden;
+            font-family: 'Poppins', sans-serif; 
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px; /* Esquinas redondeadas para la ventana sin marco de Electron */
+            box-sizing: border-box;
+            color: #f4f4f5;
+        }
+
+        .logo-container {
+            position: relative;
+            width: 120px;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .logo { 
+            width: 75px; 
+            z-index: 2;
+            filter: drop-shadow(0 0 15px rgba(255, 165, 0, 0.4)); 
+            animation: float 3s ease-in-out infinite; 
+        }
+
+        .loader {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 2px solid transparent;
+            border-top-color: var(--accent);
+            border-right-color: var(--custom-blue);
+            animation: spin 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+            z-index: 1;
+            box-shadow: 0 0 20px rgba(255, 165, 0, 0.1);
+        }
+
+        .loader::before {
+            content: "";
+            position: absolute;
+            top: 6px; 
+            left: 6px; 
+            right: 6px; 
+            bottom: 6px;
+            border-radius: 50%;
+            border: 2px solid transparent;
+            border-bottom-color: rgba(255, 255, 255, 0.3);
+            border-left-color: rgba(255, 255, 255, 0.1);
+            animation: spin 2s linear infinite reverse;
+        }
+
+        .title {
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: 6px;
+            margin-right: -6px; /* Compensa el letter-spacing para centrar perfectamente */
+            margin-bottom: 8px;
+            text-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            animation: fadeUp 0.8s ease-out forwards;
+        }
+
+        .text { 
+            color: #a1a1aa; 
+            font-size: 11px; 
+            font-weight: 400;
+            letter-spacing: 3px; 
+            text-transform: uppercase; 
+            animation: fadeUp 0.8s ease-out 0.2s forwards;
+            opacity: 0;
+        }
+        
+        @keyframes spin { 
+            0% { transform: rotate(0deg); } 
+            100% { transform: rotate(360deg); } 
+        }
+        
+        @keyframes float { 
+            0%, 100% { transform: translateY(0) scale(1); } 
+            50% { transform: translateY(-6px) scale(1.05); } 
+        }
+        
+        @keyframes fadeUp { 
+            from { opacity: 0; transform: translateY(12px); } 
+            to { opacity: 1; transform: translateY(0); } 
+        }
     </style>
 </head>
 <body>
-    <img src="logo.png" class="logo">
-    <div class="loader"></div>
-    <div class="text">Iniciando...</div>
+    <div class="logo-container">
+        <img src="logo.png" class="logo" onerror="this.src='https://minotar.net/helm/Steve/100.png'">
+        <div class="loader"></div>
+    </div>
+    <div class="title">MIGAJAS</div>
+    <div class="text">Iniciando sistema...</div>
 </body>
 </html>

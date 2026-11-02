@@ -1,0 +1,67 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
+  "productName": "Migajas Launcher",
+  "version": "1.2.14",
+  "identifier": "com.migajas.launcher",
+  "build": {
+    "frontendDist": "../frontend",
+    "devUrl": "http://localhost:8080",
+    "beforeDevCommand": "node scripts/prepare-tauri-frontend.js && npx http-server frontend -p 8080 -c-1 --silent",
+    "beforeBuildCommand": "node scripts/prepare-tauri-frontend.js"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "Migajas Launcher",
+        "url": "index.html",
+        "width": 1000,
+        "height": 650,
+        "resizable": true,
+        "fullscreen": false,
+        "decorations": false,
+        "transparent": false,
+        "backgroundColor": "#0f0f0f"
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; img-src 'self' https: data: blob:; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com data:; connect-src 'self' https: ipc: http://ipc.localhost; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'none'; style-src-attr 'unsafe-inline'"
+    },
+    "withGlobalTauri": true
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "nsis"
+    ],
+    "createUpdaterArtifacts": true,
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "android": {
+      "debugApplicationIdSuffix": ".debug"
+    },
+    "windows": {
+      "nsis": {
+        "installMode": "currentUser",
+        "installerHooks": "windows/installer-hooks.nsh"
+      }
+    }
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDVFQzBBMkRENUFCOEUzODUKUldTRjQ3aGEzYUxBWHM1ZFV3M0Q0WmhOMzh1bDJvRnI5dC9BMWFPelRiWTlnWTcvZ2ZrRElQeEcK",
+      "endpoints": [
+        "https://migajas-community.migajas-studio.workers.dev/updater/{{target}}/{{arch}}/{{current_version}}",
+        "https://github.com/Dexi-lov/migajas-launcher/releases/latest/download/latest.json"
+      ],
+      "windows": {
+        "installMode": "passive"
+      }
+    }
+  }
+}

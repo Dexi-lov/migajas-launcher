@@ -1,0 +1,25 @@
+{
+  "name": "migajas-community",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-31",
+  "workers_dev": true,
+  "vars": {
+    "OWNER_UUID": "6a48f68a9bad4a5485fa05f9722d0ecf",
+    "SUPABASE_URL": "https://jyzqfethrgqqaaqzisqk.supabase.co",
+    "UPDATER_PUBLIC_KEY": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDVFQzBBMkRENUFCOEUzODUKUldTRjQ3aGEzYUxBWHM1ZFV3M0Q0WmhOMzh1bDJvRnI5dC9BMWFPelRiWTlnWTcvZ2ZrRElQeEcK"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "migajas-community",
+      "database_id": "7da79376-8ddc-4fb5-8f46-950f2dc6e276"
+    }
+  ],
+  "r2_buckets": [],
+  "preview_urls": false,
+  "triggers": {
+    "crons": [
+      "0 * * * *"
+    ]
+  }
+}
