@@ -19,9 +19,6 @@ jobs:
         env:
           TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
       - name: Validar clave sin compilar el launcher
-        shell: pwsh
+        run: node scripts/comprobar-firma.cjs
         env:
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
-        run: |
-          Set-Content -LiteralPath firma-prueba.txt -Value 'Prueba de firma de Migajas, sin publicación.'
-          npx tauri signer sign --app-version 1.2.14 firma-prueba.txt
